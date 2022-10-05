@@ -1,5 +1,5 @@
 # About
-AEMO design token documentation
+AEMO GEL website documentation
 
 ## Run the site locally 
 

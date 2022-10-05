@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'GEL Design Guidelines',
-  tagline: 'Styling with design tokens makes it easy to ensure that our UI is consistent, and even easier to update it as design evolves.',
+  title: 'AEMO GEL',
+  tagline: 'Welcome to the AEMO Global Experience Language (GEL), providing everything you need to know about our digital platforms to easily provide delightful and consistent customer experiences.',
   url: 'https://danielwang.github.io',
-  baseUrl: '/aemo-design-tokens/',
+  baseUrl: '/aemo-gel/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'aemo', // Usually your GitHub org/user name.
-  projectName: 'aemo-design-tokens', // Usually your repo name.
+  projectName: 'aemo-gel-site', // Usually your repo name.
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
-      title: 'GEL Design Guidelines',
+      title: 'AEMO GEL',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -77,7 +77,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Crafted and coded by Daniel Wang`,
+      copyright: `Copyright © ${new Date().getFullYear()} Crafted and coded by Digital Delivery Centre`,
     },
   },
   presets: [
