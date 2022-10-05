@@ -1,0 +1,46 @@
+{
+  "name": "design-tokens-documentation",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@danielwang/aemo-design-tokens": "^1.0.0",
+    "@docusaurus/core": "^2.0.0-beta.15",
+    "@docusaurus/plugin-content-docs": "^2.0.0-beta.15",
+    "@docusaurus/preset-classic": "^2.0.0-beta.15",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.15",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "docusaurus-plugin-sass": "^0.2.2",
+    "file-loader": "^6.2.0",
+    "module-alias": "^2.2.2",
+    "prettier": "^2.5.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "sass": "^1.49.8",
+    "sass-loader": "^12.6.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
