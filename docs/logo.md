@@ -5,11 +5,15 @@ sidebar_label: Logos
 custom_edit_url: null
 ---
 
+import Download from './_download'
+
+
 > The logo is an essential element of the AEMO brand.
 For maximum flexibility, there is a horizontal format and a stacked format of the logo available for use.
 
+![img](/AEMO_Icon_NSW.svg)
 
-
+[Download svg](/AEMO_Icon_NSW.svg)
 
 ## Primary
 
@@ -17,11 +21,15 @@ For maximum flexibility, there is a horizontal format and a stacked format of th
 
 ##### Horizontal
 
-![img](../static/img/logos/logo-primary-dark.svg) 
+![img](/img/logos/logo-primary-dark.svg) 
+
+[Download MD](/img/logos/logo-primary-dark.svg)
+
+
 
 ##### Stacked
 
-![img](../static/img/logos/logo-primary-dark-v.svg)
+![img](/img/logos/logo-primary-dark-v.svg)
 
 ## Secondary
 

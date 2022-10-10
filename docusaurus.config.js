@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'aemo', // Usually your GitHub org/user name.
   projectName: 'aemo-gel-site', // Usually your repo name.
   plugins: ['docusaurus-plugin-sass'],
+  staticDirectories: ['public', 'static'],
   themeConfig: {
     navbar: {
       title: 'AEMO GEL',

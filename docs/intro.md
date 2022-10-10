@@ -22,15 +22,15 @@ Then, we’ll need to get those generated design tokens into [Style dictionary](
 Finally, we need to execute the transformation of our tokens in the style dictionary to export the design tokens as platform deliverables that can be consumed by all of our applications at AEMO.
 
 Here’s a visual representation of our goal:
-![img](../static/img/token-generation.png) 
+![img](/img/token-generation.png) 
 
 ## Token Format
 Effective token names improve and sustain a team’s shared understanding of visual style through design, code, and other interdisciplinary handoffs. 
 
-![img](../static/img/token-format.svg) 
+![img](/img/token-format.svg) 
 
 ## Token Demo
 Whenever a component is created, we discuss — with the designers and developers involved in the design system — the possible states and variants of the component, and its specific design decisions. Then we translate all these specifications into specific design tokens.
 
-![img](../static/img/token-demo.svg) 
+![img](/img/token-demo.svg) 
 
