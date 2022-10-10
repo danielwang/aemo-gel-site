@@ -5,9 +5,6 @@ sidebar_label: Logos
 custom_edit_url: null
 ---
 
-import Download from './_download'
-
-
 > The logo is an essential element of the AEMO brand.
 For maximum flexibility, there is a horizontal format and a stacked format of the logo available for use.
 
