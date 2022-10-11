@@ -39,7 +39,7 @@ The black logo is available when black and white or grayscale designs are needed
 The reverse logo should only be used on solid background colours. Avoid using the reverse logo on patterns or photographs, as this could obstruct visibility.
 
 ## Favicons
-![img](../static/img/logo.svg)
+![img](/img/logo.svg)
 
 
 :::warning
