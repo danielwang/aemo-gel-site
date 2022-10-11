@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Brand Guideline
-sidebar_label: Brand Style Guide
+title: MD format
+sidebar_label: MD format
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

@@ -2,6 +2,7 @@
 id: code
 title: How to use
 custom_edit_url: null
+sidebar_position: 2
 ---
 
 >We use tokens instead of static values (like HEX codes) for color or sizing units.
