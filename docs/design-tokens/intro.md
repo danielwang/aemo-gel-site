@@ -12,7 +12,7 @@ Design tokens are visual values that construct and maintain a design system, and
 Setting up tokens helps designers and developers collaborate in an easier and faster way and, besides keeping the design implementation consistent in development, they also help in the automation process. As design tokens are often considered design atoms of a design system.
 
 At AEMO, We follow [Atomic Design](https://atomicdesign.bradfrost.com/) methodology. In the world of UI, design tokens are subatomic particles. The design token `gel-color-primary-purple-500` is a critical ingredient of a UI, but it’s not exactly functional on its own. It needs to be applied to an “atom” (such as the background color of a button) in order to come to life.
-![img](../static/img/atomic-design.svg) 
+![img](/img/atomic-design.svg) 
 
 ## Token Lifecycle
 The design team has created a design file using Figma that contains the design specifications for UI components. [Figma Tokens](https://docs.tokens.studio/) is a Figma Plugin allowing us to integrate Tokens into Figma designs. We use it generate design tokens represented by JSON following the Category/Item/Type structure.
