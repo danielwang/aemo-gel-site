@@ -11,5 +11,3 @@ npm run start
 ```bash
 npm run build
 ```
-
-Test code
