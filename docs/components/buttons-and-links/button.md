@@ -6,18 +6,12 @@ custom_edit_url: null
 
 > A button or Call to Action (CTA) button, depending on the situation, will usually prompt users to sign up/register/buy now etc. CTA buttons should be used where the platfrom wants to strongly suggest something that the user should do.
 
-## Anatomy
 
 ## Variants
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.
 
-|             | Default | Hover/Focus | Disabled | Selected |
-| --          | ------- | ----------- | -------- | -------- |
-| Primary     |  |  |
-| Secondary   | 
-| Danger      |
-| Link button |
+![Button types](/img/buttons/button_types.png)
 
 ## Usage
 
@@ -30,10 +24,11 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 
 ## Sizes
 
+![Button size](/img/buttons/button_size.png)
+
 ## Guidance
-* Buttons hsould indicate an action.
+* Buttons should indicate an action.
 * They should be discoverable, easy to identify, and specific.
 * Always have a text label within the button container. Icons are optional.
 * Make buttons look and feel clickable.
-* If using multiple buttons, style and label the distinctly.
-<!-- <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkzLxtqv6YGL0wotiqzgEo4%2FGEL-UI-Doc%3Fnode-id%3D696%253A103251" allowfullscreen></iframe> -->z
+* If using multiple buttons, style and label them distinctly.
