@@ -2,7 +2,7 @@ module.exports = {
   title: 'AEMO GEL',
   tagline: 'Welcome to the AEMO Global Experience Language (GEL), providing everything you need to know about our digital platforms to easily provide delightful and consistent customer experiences.',
   url: 'https://danielwang.github.io',
-  baseUrl: '/aemo-gel/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -12,10 +12,11 @@ module.exports = {
   staticDirectories: ['public', 'static'],
   themeConfig: {
     navbar: {
-      title: 'AEMO GEL',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'GEL Logo',
+        src: 'img/gel-logo.svg',
+        srcDark: 'img/gel-logo-dark.svg',
       },
       items: [
         {
@@ -98,6 +99,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

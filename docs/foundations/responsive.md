@@ -1,6 +1,7 @@
 ---
 id: responsive
 title: Responsive Design
+custom_edit_url: null
 ---
 
 >9 out of 10 Australians own a mobile phone and the number of mobile users now matches the number of desktop users.

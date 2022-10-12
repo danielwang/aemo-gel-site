@@ -3,6 +3,8 @@ id: colour-palette
 title: Colour Palette
 sidebar_label: Colour Palette
 sidebar_position: 3
+displayed_sidebar: brandingSidebar
+custom_edit_url: null
 ---
 
 Primarily AEMO interfaces should utilise white space, text, and iconography to convey the majority of content. Accessibility and readability are key.
