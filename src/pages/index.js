@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Brand Guidelines',
+    title: 'Guides',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -18,7 +18,7 @@ const features = [
     ),
   },
   {
-    title: 'Design Tokens',
+    title: 'Branding Guidelines',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -27,7 +27,7 @@ const features = [
     ),
   },
   {
-    title: 'Accessibility',
+    title: 'Community',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>

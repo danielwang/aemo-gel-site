@@ -2,8 +2,10 @@
 id: logo
 title: AEMO Logo
 sidebar_label: Logos
+sidebar_position: 1
 custom_edit_url: null
 ---
+
 
 > The logo is an essential element of the AEMO brand.
 For maximum flexibility, there is a horizontal format and a stacked format of the logo available for use.
@@ -38,8 +40,6 @@ The colour logo is the preferred version of the logo for use. When using the col
 The black logo is available when black and white or grayscale designs are needed. The black logo should also only be placed on a white background.
 The reverse logo should only be used on solid background colours. Avoid using the reverse logo on patterns or photographs, as this could obstruct visibility.
 
-## Favicons
-![img](/img/logo.svg)
 
 
 :::warning

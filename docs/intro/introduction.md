@@ -2,7 +2,9 @@
 id: introduction
 title: Introduction
 slug: /
+custom_edit_url: null
 sidebar_label: Introduction
+sidebar_position: 1
 ---
 
 # What exactly is a GEL?
@@ -11,6 +13,8 @@ It's our centralised and single source of truth to our digital brand, design and
 It's not a set of strict rules that need to be followed, but a set of guidelines and a toolkit for anyone involved in building digital tools and products at AEMO, that will evolve through it's use and application.
 
  
+![img](/img/guide/gel-structure.png)
+
 
 # Why do we need a GEL?
 AEMO is at a point of great change, opportunity and growth and we want to support that through a strategically planned design system that can scale to support us as we grow.
