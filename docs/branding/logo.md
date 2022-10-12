@@ -2,7 +2,7 @@
 id: logo
 title: AEMO Logo
 sidebar_label: Logos
-custom_edit_url: null
+sidebar_position: 1
 ---
 
 > The logo is an essential element of the AEMO brand.
