@@ -11,7 +11,7 @@ custom_edit_url: null
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.
 
-![Button types](/img/buttons/button_types.png)
+![Button types](/img/buttons/button-types.png)
 
 ## Usage
 
@@ -24,7 +24,7 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 
 ## Sizes
 
-![Button size](/img/buttons/button_size.png)
+![Button size](/img/buttons/button-size.png)
 
 ## Guidance
 * Buttons should indicate an action.
