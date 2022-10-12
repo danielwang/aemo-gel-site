@@ -32,8 +32,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/branding/logo',
-          activeBasePath: 'docs',
+          to: 'community',
+          activeBasePath: 'pages',
           label: 'Community',
           position: 'left',
         },

@@ -1,6 +1,6 @@
 ---
 id: colours
-title: Colours
+title: Colour System
 custom_edit_url: null
 ---
 
