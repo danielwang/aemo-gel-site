@@ -11,7 +11,7 @@ custom_edit_url: null
 There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
 
 | States | Sub States|
-| --- | --- |
+| ---    | ---       |
 | ![Button control types](/img/input/state.png) | ![Button control demo](/img/input/sub-state.png) |
 
 See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
