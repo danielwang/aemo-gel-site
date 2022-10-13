@@ -24,7 +24,14 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 
 ## Sizes
 
-![Button size](/img/buttons/button-size.png)
+![Button size](../../assets/button-size.png)
+
+
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/button)
+
+:::
 
 ## Guidance
 * Buttons should indicate an action.
