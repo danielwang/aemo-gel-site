@@ -20,8 +20,8 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs/intro',
+          to: 'docs/intro/introduction',
+          activeBaseRegex: 'docs/(intro|foundations)',
           label: 'Guides',
           position: 'left',
         },
