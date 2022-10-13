@@ -61,12 +61,21 @@ code{
   --ifm-hero-background-color: #3C1053;
 }
 
-.menu__link--sublist{
-  font-family: var(--gel-font-family-heavy);
+.menu{
+
+  .menu__link--sublist{
+
+    &-caret::after{
+      position: absolute;
+      left: 0;
+    }
+  }
+  .menu__link{ 
+    padding-left: var(--gel-spacer-4) ;
+  }
+  
 }
-.menu__link{
-  font-size: 1rem;
-}
+
 
 .main-wrapper{
   padding-top: 2rem;

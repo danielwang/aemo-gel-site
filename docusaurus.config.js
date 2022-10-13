@@ -26,6 +26,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/components/buttons-and-links/button',
+          activeBasePath: 'docs',
+          label: 'UI Components',
+          position: 'left',
+        },
+        {
           to: 'docs/branding/logo',
           activeBasePath: 'docs',
           label: 'Branding Guidelines',
