@@ -26,7 +26,14 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 
 ![Button size](/img/buttons/button-size.png)
 
+<iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkzLxtqv6YGL0wotiqzgEo4%2FGEL-UI-Doc%3Fnode-id%3D696%253A103251" allowfullscreen></iframe>
+
+:::info Code
+Find the source code [here](https://primefaces.org/primevue/button)
+:::
+
 ## Guidance
+
 * Buttons should indicate an action.
 * They should be discoverable, easy to identify, and specific.
 * Always have a text label within the button container. Icons are optional.
