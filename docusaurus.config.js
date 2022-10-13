@@ -93,12 +93,6 @@ module.exports = {
       // ],
       copyright: `Copyright © ${new Date().getFullYear()} Crafted and coded by Digital Delivery Centre`,
     },
-    docs: { 
-      sidebar: {
-        autoCollapseCategories: true, 
-        hideable: true,
-      },
-    },
   },
   presets: [
     [
@@ -107,7 +101,6 @@ module.exports = {
         docs: {
           breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
-          
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
