@@ -28,7 +28,8 @@
   --ifm-code-background: transparent;
   --ifm-blockquote-font-size: 1.5rem;
   --ifm-link-color: var(--gel-color-tertiary-link);
-  --ifm-menu-color: var(--gel-color-tertiary-slate-700);
+  --ifm-menu-color: var(--gel-color-tertiary-white);
+  --ifm-menu-color-active: var(--gel-color-secondary-teal)
 }
 
 html[data-theme='dark'] {
@@ -60,18 +61,41 @@ code{
 .hero--primary{
   --ifm-hero-background-color: #3C1053;
 }
-
+aside{
+  background-color: var(--gel-color-primary-purple-700);
+}
 .menu{
+  padding: var(--gel-spacer-2) var(--gel-spacer-4) !important;
 
-  .menu__link--sublist{
+  .menu__link{ 
+    padding-left: var(--gel-spacer-5);
 
-    &-caret::after{
-      position: absolute;
-      left: 0;
+    &--active{
+      background: rgba(52, 185, 179, .25);
+    }
+
+    &--sublist{
+
+      &-caret::after{
+        position: absolute;
+        left: 0;
+        // background: none;
+        // height: auto;
+        // width: auto;
+      }
     }
   }
-  .menu__link{ 
-    padding-left: var(--gel-spacer-4) ;
+  .menu__list li > ul {
+    margin-left: var(--gel-spacer-2);
+
+    .menu__link{
+      font-size: var(--gel-font-size-text-default);
+    }
+  } 
+
+  .theme-doc-sidebar-menu > li{
+    margin-top: var(--gel-spacer-2);
+    margin-bottom: var(--gel-spacer-2);
   }
   
 }
