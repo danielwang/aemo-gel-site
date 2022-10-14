@@ -1,7 +1,6 @@
 ---
 id: introduction
 title: Introduction
-slug: /
 custom_edit_url: null
 sidebar_label: Introduction
 sidebar_position: 1
