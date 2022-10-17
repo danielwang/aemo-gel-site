@@ -11,7 +11,7 @@ custom_edit_url: null
 
 There are three different vairants of links available in GEL. 
 
-![Button types](/img/links/links.png)
+![Button types](img/links.png)
 
 ## Guidance
 * Links should be used when the user is redirected to another location.

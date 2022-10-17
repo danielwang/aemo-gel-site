@@ -10,11 +10,11 @@ custom_edit_url: null
 
 A total of three button controls are available in GEL.
 
-![Button control types](/img/button-controls/button-control-types.png)
+![Button control types](img/button-control-types.png)
 
 ## Demo
 
-![Button control demo](/img/button-controls/button-control-demo.png)
+![Button control demo](img/button-control-demo.png)
 
 ## Guidance
 

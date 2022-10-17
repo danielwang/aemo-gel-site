@@ -8,7 +8,7 @@ custom_edit_url: null
 # The three phases
 There are three key phases of the AEMO Human-Centred Design Process, and projects ideally go through all of these before they get in the hands of their customers or users.
 
-![img](/img/guide/design-process.webp)
+![img](../..//img/guide/design-process.webp)
 
 ## Discovery
 Our primary customer research phase, used to gain a rich understanding of the problem to be solved or the opportunity to be explored and to validate our hypotheses, and to gain insight into our customer needs or pain-points in this space. This phase can deliver design artefacts such as guiding Design Principles, Customer Journey Maps, Personas or Behavioural archetypes that help to guide projects and assist in decision making later in the phases of the process.
