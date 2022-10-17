@@ -12,7 +12,7 @@ It's our centralised and single source of truth to our digital brand, design and
 It's not a set of strict rules that need to be followed, but a set of guidelines and a toolkit for anyone involved in building digital tools and products at AEMO, that will evolve through it's use and application.
 
  
-![img](/img/guide/gel-structure.png)
+![img](../img/guide/gel-structure.png)
 
 
 # Why do we need a GEL?

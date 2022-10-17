@@ -10,11 +10,11 @@ custom_edit_url: null
 
 A total of four different toolbars are available in GEL.
 
-![Toolbar types](/img/toolbar/toolbar-types.png)
+![Toolbar types](img/toolbar-types.png)
 
 ## Demo
 
-![Toolbar demo](/img/toolbar/toolbar-demo.png)
+![Toolbar demo](img/toolbar-demo.png)
 
 ## Guidance
 

@@ -10,11 +10,11 @@ custom_edit_url: null
 
 A total of five different segmented-controls are available in GEL.
 
-![Segmented control types](/img/segmented-control/segmented-control-types.png)
+![Segmented control types](img/segmented-control-types.png)
 
 ## Demo
 
-![segmented-control demo](/img/segmented-control/segmented-control-demo.png)
+![segmented-control demo](img/segmented-control-demo.png)
 
 ## Guidance
 

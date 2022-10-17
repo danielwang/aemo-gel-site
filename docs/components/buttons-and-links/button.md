@@ -11,7 +11,7 @@ custom_edit_url: null
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.
 
-![Button types](/img/buttons/button-types.png)
+![Button types](img/button-types.png)
 
 ## Usage
 
@@ -24,7 +24,14 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 
 ## Sizes
 
-![Button size](/img/buttons/button-size.png)
+![Button size](img/button-size.png)
+
+
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/button)
+
+:::
 
 ## Guidance
 * Buttons should indicate an action.

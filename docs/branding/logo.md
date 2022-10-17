@@ -20,15 +20,15 @@ For maximum flexibility, there is a horizontal format and a stacked format of th
 
 ##### Horizontal
 
-![img](/img/logos/logo-primary-dark.svg) 
+![img](../img/logos/logo-primary-dark.svg) 
 
-[Download MD](/img/logos/logo-primary-dark.svg)
+[Download MD](../img/logos/logo-primary-dark.svg)
 
 
 
 ##### Stacked
 
-![img](/img/logos/logo-primary-dark-v.svg)
+![img](../img/logos/logo-primary-dark-v.svg)
 
 ## Secondary
 
