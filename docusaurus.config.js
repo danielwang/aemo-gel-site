@@ -44,6 +44,12 @@ module.exports = {
         // },
       ],
     },
+    docs: { 
+      sidebar: {
+        autoCollapseCategories: true, 
+        hideable: true,
+      },
+    },
     footer: {
       style: 'light',
       // links: [
