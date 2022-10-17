@@ -20,20 +20,26 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs',
-          activeBasePath: 'docs',
+          to: 'docs/intro/introduction',
+          activeBaseRegex: 'docs/(intro|foundations)',
           label: 'Guides',
           position: 'left',
         },
         {
+          to: 'docs/components/buttons-and-links/button',
+          activeBasePath: 'docs/components',
+          label: 'UI Components',
+          position: 'left',
+        },
+        {
           to: 'docs/branding/logo',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/branding',
           label: 'Branding Guidelines',
           position: 'left',
         },
         {
           to: 'community',
-          activeBasePath: 'pages',
+          activeBasePath: 'community',
           label: 'Community',
           position: 'left',
         },

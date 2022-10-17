@@ -1,5 +1,5 @@
 ---
-id: hcd
+id: hcd-intro
 title: Human-Centred Design
 sidebar_label: Human-Centred Design
 custom_edit_url: null
