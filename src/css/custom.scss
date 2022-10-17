@@ -64,6 +64,10 @@ code{
 aside{
   background-color: var(--gel-color-primary-purple-700);
 }
+
+/* *****************
+Sidebar overrides 
+******************/
 .menu{
   padding: var(--gel-spacer-2) var(--gel-spacer-4) !important;
 
@@ -82,14 +86,21 @@ aside{
         // background: none;
         // height: auto;
         // width: auto;
+        background-image: url('data:image/svg+xml;utf8,<svg alt="Arrow" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(255,255,255,0.5)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+        background-size: 1.5rem 1.5rem;
+        background-position: 50%;
       }
     }
   }
+  // sub menu
   .menu__list li > ul {
-    margin-left: var(--gel-spacer-2);
+    margin-left: var(--gel-spacer-4);
+    padding-left: var(--gel-spacer-2);
+    border-left: 1px solid #ffffff40;
 
     .menu__link{
       font-size: var(--gel-font-size-text-default);
+      padding-left: var(--gel-spacer-3);
     }
   } 
 
@@ -100,6 +111,9 @@ aside{
   
 }
 
+/* *****************
+Main overrides 
+******************/
 
 .main-wrapper{
   padding-top: 2rem;
