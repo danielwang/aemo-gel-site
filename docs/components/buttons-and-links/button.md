@@ -6,7 +6,6 @@ custom_edit_url: null
 
 > A button or Call to Action (CTA) button, depending on the situation, will usually prompt users to sign up/register/buy now etc. CTA buttons should be used where the platfrom wants to strongly suggest something that the user should do.
 
-
 ## Variants
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.

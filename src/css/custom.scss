@@ -131,3 +131,12 @@ Main overrides
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+
+
+/* *****************
+Pager overrides 
+******************/
+.pagination-nav__link{
+  border: 0;
+}
