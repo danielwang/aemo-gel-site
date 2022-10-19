@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'AEMO GEL',
-  tagline: 'Welcome to the AEMO Global Experience Language (GEL), providing everything you need to know about our digital platforms to easily provide delightful and consistent customer experiences.',
+  title: 'Global Experience Language',
+  tagline: 'Welcome to the AEMO GEL, providing everything you need to know about our digital platforms to easily provide delightful and consistent customer experiences.',
   url: 'https://danielwang.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
