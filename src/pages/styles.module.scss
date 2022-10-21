@@ -1,0 +1,64 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ @import "@danielwang/aemo-design-tokens/dist/_tokens.scss"; 
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.innerHeroBanner{
+  width: 75%;
+
+  p{
+    width: 75%;
+  }
+}
+
+.hero{
+  flex-direction: column;
+  background-image: url(../../static/img/hero.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: left;
+
+  h1{
+    font-size: 5rem;
+  }
+}
+
+.roles{
+  margin-top: $gel-spacer-7;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  .role{
+    text-decoration: none;
+    background-color: rgba($gel-color-secondary-teal, .25);
+    border-radius: $gel-radius-md;
+    backdrop-filter: blur(5px);
+    padding: $gel-spacer-3;
+    transition: background-color $gel-motion-ease-in $gel-duration-medium;
+    &:hover{
+      background-color: rgba($gel-color-primary-purple-500, .75);
+    }
+
+    h3{
+      color: white
+    }
+  }
+}
+

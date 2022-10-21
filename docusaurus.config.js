@@ -52,8 +52,8 @@ module.exports = {
     },
     docs: { 
       sidebar: {
-        autoCollapseCategories: true, 
-        hideable: true,
+        autoCollapseCategories: false, 
+        hideable: false,
       },
     },
     footer: {

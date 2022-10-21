@@ -4,64 +4,47 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
-const features = [
+const roles = [
   {
     title: 'UX Designer',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      </>
-    ),
+    url: 'ux-designer'
   },
   {
     title: 'Developer',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Squis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </>
-    ),
+    url: 'developer'
   },
   {
     title: 'Business Analyst',
     imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
-      </>
-    ),
+    url: 'business-analyst'
   },
   {
     title: 'Tech Writer',
     imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
-      </>
-    ),
+    url: 'tech-writer'
+  },
+  {
+    title: 'Graphic Designer',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    url: 'graphic-designer'
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Role({imageUrl, title, url}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--3 text--center', styles.feature)}>
+    <a className={clsx('text--center', styles.role)} href={useBaseUrl('docs/intro/roles/'+ url)}>
       {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
+          <img className={styles.RoleImage} src={imgUrl} alt={title} />
       )}
       <h3>
-        <Link
-          to={useBaseUrl('docs/intro/roles/ux-designer')}>
           {title}
-        </Link>
       </h3>
-      <p>{description}</p>
-    </div>
+    </a>
   );
 }
 
@@ -74,30 +57,28 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner, styles.hero)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--secondary',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/intro/introduction')}>
-              Get Started
-            </Link>
+          <div className={styles.innerHeroBanner}>
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <span className={styles.buttons}>
+              <Link
+                className={clsx(
+                  'button button--secondary',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('docs/intro/introduction')}>
+                Get Started
+              </Link>
+            </span>
           </div>
-        </div>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+          {roles && roles.length > 0 && (
+            <section className={styles.roles}>
+                  {roles.map((props, idx) => (
+                    <Role key={idx} {...props} />
+                  ))}
+            </section>
+          )}
+        </div> 
       </header>
       <main>
         
