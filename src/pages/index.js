@@ -56,7 +56,7 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>
         <Link
-          to={useBaseUrl('docs/intro/introduction')}>
+          to={useBaseUrl('docs/intro/roles/ux-designer')}>
           {title}
         </Link>
       </h3>
