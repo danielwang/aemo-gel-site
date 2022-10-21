@@ -37,7 +37,7 @@ html[data-theme='dark'] {
 }
 
 body{
-  font-family: var(--gel-font-family-roman);
+  font-family: var(--gel-font-family-book);
   font-weight: var(--gel-font-weight-normal);
   font-size: 1.125rem;
 }
@@ -73,7 +73,7 @@ Sidebar overrides
 
   .menu__link{ 
     padding-left: var(--gel-spacer-5);
-
+    font-family: var(--gel-font-family-medium);
     &--active{
       background: rgba(52, 185, 179, .25);
     }
@@ -101,6 +101,7 @@ Sidebar overrides
     .menu__link{
       font-size: var(--gel-font-size-text-default);
       padding-left: var(--gel-spacer-3);
+      font-family: var(--gel-font-family-roman);
     }
   } 
 
