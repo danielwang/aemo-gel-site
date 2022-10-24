@@ -1,0 +1,22 @@
+@import "@danielwang/aemo-design-tokens/dist/_tokens.scss"; 
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $gel-color-tertiary-slate-100;
+    padding: $gel-spacer-3 $gel-spacer-4;
+    
+    &__logo{
+      margin-top: 0;
+    }
+
+    a{
+        opacity: 1;
+    }
+
+    &__copyright{
+        font-size: $gel-font-size-text-sm;
+    }
+  }
