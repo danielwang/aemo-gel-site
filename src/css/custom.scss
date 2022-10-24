@@ -29,7 +29,8 @@
   --ifm-blockquote-font-size: 1.5rem;
   --ifm-link-color: var(--gel-color-tertiary-link);
   --ifm-menu-color: var(--gel-color-tertiary-white);
-  --ifm-menu-color-active: var(--gel-color-secondary-teal)
+  --ifm-menu-color-active: var(--gel-color-secondary-teal);
+  --ifm-footer-background-color: white;
 }
 
 html[data-theme='dark'] {
@@ -116,7 +117,7 @@ Sidebar overrides
 Main overrides 
 ******************/
 
-.main-wrapper{
+aside, main{
   padding-top: 2rem;
 }
 

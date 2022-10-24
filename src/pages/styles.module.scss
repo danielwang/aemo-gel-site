@@ -7,6 +7,12 @@
 
  @import "@danielwang/aemo-design-tokens/dist/_tokens.scss"; 
 
+
+h2{
+  text-align: center;
+  font-size: $gel-font-size-text-default * 3;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -38,6 +44,15 @@
   h1{
     font-size: 5rem;
   }
+
+  .cta{
+    background-color: $gel-color-secondary-yellow;
+    border: 0;
+    padding: $gel-spacer-2 $gel-spacer-4;
+    font-family: var(--gel-font-family-medium);
+    font-weight: var(--gel-font-weight-normal);
+    font-size: $gel-font-size-text-lg;
+  }
 }
 
 .roles{
@@ -62,3 +77,43 @@
   }
 }
 
+.features{
+  padding-top: $gel-spacer-5 * 2;
+  padding-bottom: $gel-spacer-5 * 2;
+
+  article{
+    display: flex;
+    padding: $gel-spacer-5 $gel-spacer-4;
+    border: 1px solid $gel-color-tertiary-slate-100;
+    border-radius: $gel-radius-md;
+    position: relative;
+    font-size: $gel-font-size-text-default;
+  }
+  img{
+    margin-right: $gel-spacer-4;
+  }
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      content: "";
+    }
+  }
+}
+
+.summary{
+  padding-top: $gel-spacer-5 * 2;
+  padding-bottom: $gel-spacer-5 * 2;
+  background-color: $gel-color-secondary-blue-100;
+  text-align: center;
+  background-image: url(../../static/img/summary.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}

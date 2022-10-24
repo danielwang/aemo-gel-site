@@ -34,6 +34,50 @@ const roles = [
   },
 ];
 
+const features = [
+  {
+    title: 'Guides',
+    url: 'docs/intro/introduction',
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. 
+      </>
+    ),
+  },
+  {
+    title: 'Branding Guidelines',
+    url: 'docs/intro/introduction',
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Squis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam.
+      </>
+    ),
+  },
+  {
+    title: 'Community',
+    url: 'docs/components/buttons-and-links/button',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+      </>
+    ),
+  },
+  {
+    title: 'Community',
+    url: 'docs/intro/introduction',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+      </>
+    ),
+  },
+];
+
+
 function Role({imageUrl, title, url}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -45,6 +89,23 @@ function Role({imageUrl, title, url}) {
           {title}
       </h3>
     </a>
+  );
+}
+
+function Feature({url, imageUrl, title, description}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--6', styles.feature)}>
+      <article>
+        {imgUrl && (
+            <img src={imgUrl} alt={title} />
+        )}
+        <div>
+          <h3><a href={url}>{title}</a></h3>
+          <span>{description}</span>
+        </div>
+      </article>
+    </div>
   );
 }
 
@@ -64,7 +125,7 @@ function Home() {
               <Link
                 className={clsx(
                   'button button--secondary',
-                  styles.getStarted,
+                  styles.cta,
                 )}
                 to={useBaseUrl('docs/intro/introduction')}>
                 Get Started
@@ -80,9 +141,28 @@ function Home() {
           )}
         </div> 
       </header>
-      <main>
-        
+      <main className="container">
+        <div className='col col--8 col--offset-2'>
+          <section className={styles.features}>
+            <h2>What GEL offers</h2>
+              <div className='row'>
+                  {features.map((props, idx) => (
+                    <Feature key={idx} {...props} />
+                  ))}
+              </div>
+          </section>
+        </div> 
       </main>
+      <section className={styles.summary}>
+        <div className='container'>
+          <h2>Title of something</h2>
+          <div className='row'>
+            <p className='col col--8 col--offset-2'>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            </p>
+          </div>
+        </div>  
+      </section> 
     </Layout>
   );
 }
