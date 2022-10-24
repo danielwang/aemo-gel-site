@@ -7,12 +7,6 @@
 
  @import "@danielwang/aemo-design-tokens/dist/_tokens.scss"; 
 
-
-h2{
-  text-align: center;
-  font-size: $gel-font-size-text-default * 3;
-}
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -81,6 +75,11 @@ h2{
   padding-top: $gel-spacer-5 * 2;
   padding-bottom: $gel-spacer-5 * 2;
 
+  h2{
+    text-align: center;
+    font-size: $gel-font-size-text-default * 3;
+  }
+
   article{
     display: flex;
     padding: $gel-spacer-5 $gel-spacer-4;
@@ -116,4 +115,10 @@ h2{
   background-image: url(../../static/img/summary.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
+
+
+  h2{
+    text-align: center;
+    font-size: $gel-font-size-text-default * 3;
+  }
 }
