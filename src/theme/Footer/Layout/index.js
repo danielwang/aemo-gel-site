@@ -8,9 +8,9 @@ export default function FooterLayout({style, links, logo, copyright}) {
         'footer--dark': style === 'dark',
         }, styles.footer)}>
 
-        {logo && <div className="margin-bottom--sm">{logo}</div>}
+        {logo}
         {links}
-        {copyright}
+        <span className={styles.copyright}>{copyright}</span>
     </footer>
   );
 }
