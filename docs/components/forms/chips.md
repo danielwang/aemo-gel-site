@@ -4,32 +4,36 @@ title: Chips
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> Chip represents entities using icons and labels. Chips should appear dynamically as group of interactive elements.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There is only one form of chip avaliable in GEL.
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Chips](img/chip.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of input number by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97147)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/chips)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Chips demo](img/chips-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* The Chips should have close button by default allowing users to delete the chips from the Input fields.
+* The gap between two adjacent Chips inside an Input field and Select field should be equal to “Spacer 1”(4px) of the design token.
+* The Input field or Select field will be appended with a “...” if the next Chips cannot fit in. 
+* Chips when used in filter control for chart should take into consideration the width of the available space. Show 1 chip followed by the number of options selected to indicate the number of selections made for that  filter
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Chips are majorly used in the input, select state and chart filter under button control.

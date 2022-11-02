@@ -4,32 +4,38 @@ title: Input Number
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> Input numbers allows the user to input numeric value only.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 32 variations of input number to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
 
 | States | Sub States|
 | ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+| ![Input number State](img/inputnumber-state.svg) | ![Input number Substate](img/inputnumber-sub-state.svg) |
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of input number by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97366)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/inputnumber)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Input number demo](img/inputnumber-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* Input number are similar to Input fields but only take numbers as input value.
+* When the user clicks any of the action button associated with the input field, the increased and decreased value should be reflected in the input field.
+* Note: Additional options for designers provided if you want to change the layout of the text to single input or dual(i.e. displaying Currency at all times).
+* Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Use for numeric input which can be increased/decreased from the action button within the input group.

@@ -4,32 +4,36 @@ title: Date and Time
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> A date and time picker allows the user to select an associated date and time.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 5 variations of date and time to choose from in GEL.
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Date and time types](img/date-and-time-types.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of Date and Time by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97823)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/calendar)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Date and time demo](img/date-and-time-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* The selected time and date should be reflected in the input box for both date and time picker components.
+* The time and calendar are displayed as dropdown upon clicking the icon in the selection area. User can type if they click in the input area instead of the icon.
+* The placeholder indicates the behaviour in which the selected value will be displayed to the user.
+* The icon in the date and time picker differentiates it from a regular text input even though the functionality are similar.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Use the date and time picker if the user wants to populate the given input field with either Date or Time.

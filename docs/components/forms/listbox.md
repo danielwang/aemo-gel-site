@@ -4,32 +4,35 @@ title: Listbox
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> Listbox are lists of items grouped together. List items in a listbox can be either grouped or ungrouped. They can also have checkboxes as a variant allowing users to select multiple items at once.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+A total of 8 variants of listboxes are available in GEL. 4 with checkboxes and 4 without.
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Listbox State](img/listbox-types.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of listbox by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97231)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/listbox)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Input demo](img/select-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* Listbox in a single select input will close the Listbox after a value has been selected from the option.
+* Listbox in a multi select input will close the Listbox after the user has clicked anywhere outside the Listbox dialog.
+* When user searches for a value in the listbox, the list should be filtered to match the search value.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Listbox are used to display multiple options for a select input.

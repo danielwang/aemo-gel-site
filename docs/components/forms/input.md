@@ -12,13 +12,22 @@ There are a total of 32 input variations to choose from. They are primarily divi
 
 | States | Sub States|
 | ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+| ![Input State](img/input-state.svg) | ![Input Substate](img/input-sub-state.svg) |
+
+:::infor Figma
 
 See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
 
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/inputtext)
+
+:::
+
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Input demo](img/input-demo.svg)
 
 ## Guidance
 
