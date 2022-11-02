@@ -8,28 +8,35 @@ custom_edit_url: null
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 20 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
 
 | States | Sub States|
 | ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+| ![Select State](img/select-state.svg) | ![Select Substate](img/select-sub-state.svg) |
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma 
+
+See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97638)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/multiselect)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Select demo](img/select-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* Select are dropdowns used inside form. 
+* A listbox is always opened when a select is triggered/clicked.
+* In multselect listbox, the selection made by the use are reflected as chips. A “...” appends the chips list if the multi selected options do not fit in the select area.
+* Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
+* Use Select if the selection options are more than 5. If less than 5 options, consider using a Radio/Checkboxes.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Use Select inside forms when the input field requries selection to be made from multiple options.

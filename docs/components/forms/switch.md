@@ -4,32 +4,34 @@ title: Switch
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> A switch is a boolean input taking either true or false values only.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 5 variants of switch availabe in GEL. 
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Switch types](img/switch-types.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of switch by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A98031)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/radiobutton)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Switch demo](img/switch-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* When used for infographics or tables, the result of changing the switch is immediately effective and there is no need for an additional action to apply or save a change.
+* Use switch if there are no more than two choices mapping to boolean relationship like true or false.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Use switch in instances where the input requires a boolean relaionship like on/off, true/false, enable,disable or activate/deactivate.

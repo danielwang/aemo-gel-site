@@ -4,32 +4,37 @@ title: Radio
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> A radio is an input control that allows a user to select one options from number of choices.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 5 variants of radio button availabe in GEL. 
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Radio Types](img/radio-types.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97980)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/radiobutton)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Radio demo](img/radio-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* Similar to checkboxes, radio buttons ideally should be stacked vertically, however can be horizontally placed if the width is sufficient.
+* All radio should be followed by text in a from.
+* One radio button should be selected by default using the checked attribute.
+* Users are able to select an option by clicking/tapping either the radio button or its label.
+* Consider using a single Select if the options provided are more than 5.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Use radio buttons to present a set of options, where only one option can be selected at a time.
