@@ -4,32 +4,37 @@ title: Checkbox
 custom_edit_url: null
 ---
 
-> Inputs are the most basic component for capturing and submitting user data.
+> A checkbox is an input control that allows a user to select one or more options from number of choices.
 
 ## Variants
 
-There are a total of 32 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 6 variations of checkboxes available in GEL to choose from.
 
-| States | Sub States|
-| ---    | ---       |
-| ![Input State](img/state.png) | ![Input Substate](img/sub-state.png) |
+![Checkbox Types](img/checkbox-types.svg)
 
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97503)
+:::info Figma
+
+See all the available variants of checkbox by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97914)
+
+:::
+:::info Code
+
+Find the source code [here](https://primefaces.org/primevue/checkbox)
+
+:::
 
 ## Demo
 
-![Input demo](img/input-demo.png)
+![Checkbox demo](img/checkbox-demo.svg)
 
 ## Guidance
 
-* Use inputs when the user needs to provide value to the form.
-* Avoid using inputs that trigger immediate change: a page refresh.
-* Label: Labels in an input field informs the user what the field is used for.
-* Required: Required option in an input informs the user if the field is mandatory.
-* Placeholder: Placeholders in addition to labels allows providing additional information to the user in regards to what the input field is being used for.
-* Inline Message: These messages are displayed upon the validation of the input fillled ideally an error message is displayed on a much frequent basis.
-* Help Text: Help Text provide user with further explanantion of the input field. Help text can be a small paragraph.
+* Checkboxes options ideally should be stacked vertically, however can be horizontally placed if the width is sufficient.
+* All checkbox should be followed by text in a from.
+* Users are able to select an option by clicking/tapping either the checkbox or its label.
+* Consider using a Select if the options provided are more than 5.
+* An intermediate state of checkbox can also be displayed when only some options are selected.
 
 ## When to use
 
-* Use Inputs when the user has to put in a value inside a form.
+* Checkboxes are used in a form or multiselect dropdown for a user to indicate a selection of one or more options.
