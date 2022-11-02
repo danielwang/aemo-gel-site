@@ -32,7 +32,7 @@
   flex-direction: column;
   background-image: url(../../static/img/hero.svg);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right bottom;
   text-align: left;
 
   h1{
@@ -82,14 +82,12 @@
 
   article{
     display: flex;
-    padding: $gel-spacer-5 $gel-spacer-4;
     border: 1px solid $gel-color-tertiary-slate-100;
     border-radius: $gel-radius-md;
     position: relative;
     font-size: $gel-font-size-text-default;
-  }
-  img{
-    margin-right: $gel-spacer-4;
+    overflow: hidden;
+    margin-top: $gel-spacer-4;
   }
   a{
     &:hover{
@@ -106,6 +104,11 @@
     }
   }
 }
+
+.featbody{
+  padding: $gel-spacer-3
+}
+
 
 .summary{
   padding-top: $gel-spacer-5 * 2;
