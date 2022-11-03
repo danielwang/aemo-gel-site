@@ -103,6 +103,12 @@ module.exports = {
       //     ],
       //   },
       // ],
+      logo: {
+        alt: 'AEMO DDC',
+        src: 'ddc-logo.svg',
+        href: '#',
+        width: 160,
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Crafted and coded by Digital Delivery Centre`,
     },
   },
