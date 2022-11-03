@@ -4,6 +4,8 @@ title: Buttons
 custom_edit_url: null
 ---
 
+import FigmaVue from '../_figmaVue'
+
 > A button or Call to Action (CTA) button, depending on the situation, will usually prompt users to sign up/register/buy now etc. CTA buttons should be used where the platfrom wants to strongly suggest something that the user should do.
 
 ## Variants
@@ -40,6 +42,12 @@ Find the source code [here](https://primefaces.org/primevue/button)
 * If using multiple buttons, style and label them distinctly.
 
 
+
+
 # Developer API
 
 [Button in Vuejs](https://primefaces.org/primevue/button)
+
+
+<FigmaVue type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A103251" />
+<FigmaVue type="vue" url="https://primefaces.org/primevue/button" />
