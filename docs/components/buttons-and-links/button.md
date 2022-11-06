@@ -43,11 +43,16 @@ Find the source code [here](https://primefaces.org/primevue/button)
 
 
 
-
-# Developer API
-
-[Button in Vuejs](https://primefaces.org/primevue/button)
-
+## Designer assets
 
 <FigmaVue type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A103251" />
+
+
+
+## Developer API
+
+
+
 <FigmaVue type="vue" url="https://primefaces.org/primevue/button" />
+
+
