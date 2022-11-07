@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Variants
 
-Similar to table, Treetable are provided as building blocks to create any kind of tables.
+Similar to table, treetable are provided as building blocks to create any kind of tables.
 
 ![treetable types](img/treetable-types.svg)
 
@@ -30,8 +30,8 @@ Find the source code [here](https://primefaces.org/primevue/treetable)
 ## Guidance
 
 * Treetable are similar to tables but with additional options to add hierarchy upto 3 levels.
-Data cell component is equivalent to level 1 item without hierarchy.
-Level 3 cannot have inner childs/hierarchy. 
+* Data cell component is equivalent to level 1 item without hierarchy.
+* Level 3 cannot have inner childs/hierarchy. 
 
 ## When to use
 

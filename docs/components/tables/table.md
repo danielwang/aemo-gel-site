@@ -8,13 +8,13 @@ custom_edit_url: null
 
 ## Variants
 
-Tables are given as a whole into two different sizes or based on the context the user can create custom table by using the table cell blocks provided by GEL.
+Users are provided with 2 different sized tables in GEL or based on the context the user can create custom table by using the table cell blocks provided by GEL.
 
 ![Table types](img/table-cell-block-types.svg)
 
 :::info Figma
 
-See all the available variants of pagination by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A17905)
+See all the available variants of tables by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A17905)
 
 :::
 :::info Code
