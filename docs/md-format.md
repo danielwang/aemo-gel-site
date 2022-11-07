@@ -1,8 +1,10 @@
 ---
-id: doc1
+id: md-format
 title: MD format
 sidebar_label: MD format
 ---
+
+import AdmonitionExt from './components/admonitionExt.js'
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
@@ -89,7 +91,6 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](img/gel-logo.svg)
 
 ---
 
@@ -200,3 +201,27 @@ This is a caution
 This is a warning
 
 :::
+
+
+
+## Custom build JSX component
+
+### Admonitions Ext
+
+#### Visual
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A103251" />
+
+
+#### Code
+```javascript
+  <AdmonitionExt type="figma" url="#" />
+```
+
+#### Developer 
+#### Visual
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/button" />
+
+#### Code
+```javascript
+  <AdmonitionExt type="vue" url="#" />
+```
