@@ -26,7 +26,7 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 ![Button size](img/button-size.png)
 
 
-:::info Code
+:::success Codesdsd
 
 Find the source code [here](https://primefaces.org/primevue/button)
 

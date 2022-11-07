@@ -122,6 +122,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+          admonitions: {
+            tag: ':::',
+            keywords: ['note', 'tip', 'info', 'caution', 'danger'],
+            extendDefaults: false,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
