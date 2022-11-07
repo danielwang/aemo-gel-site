@@ -1,7 +1,9 @@
 import React from 'react';
-import figma from "./assets/figma.png";
-import vue from "./assets/vue.png";
+import figmaImg from "./assets/figma.png";
+import vueImg from "./assets/vue.png";
 import styled, { css } from "styled-components";
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
 
 
 const FigmaVueStyle = styled.div`
@@ -11,16 +13,16 @@ const FigmaVueStyle = styled.div`
     background-color: ${props => props.type === 'figma' ? "var(--gel-color-primary-purple-100)" : "var(--gel-color-secondary-blue-100)"}
 `;
 
-const FigmaVue = ({ type, url }) => {
-    let text, logo, classes;
+const AdmonitionExt = ({ type, url }) => {
+    let text, logo;
     switch (type) {
       case "figma":
-        logo = figma;
-        text = 'Figma design file';
+        logo = figmaImg;
+        text = (<>Hey Designers, please find <Link to={url}>the Figma assets here</Link>. If you want permission to access the file, please contact <Link to={useBaseUrl('/community')}>GEL Community</Link>.</> );
         break;
       case "vue":
-        logo = vue;
-        text = 'Dev API in VueJS';
+        logo = vueImg;
+        text = (<>Hey Developers, find out the tech documentation of this compoment on <Link to={url}>PrimeVue</Link>. If you have issue, please contact  <Link to={useBaseUrl('/community')}>GEL Community</Link></>);
         break;
     }
   
@@ -28,11 +30,11 @@ const FigmaVue = ({ type, url }) => {
       <>
         <FigmaVueStyle className="admonition" type={type}>
             <h5><img src={logo} height="20"/> <b>{type}</b></h5>
-            <div>Please find more about the <a href={url} target="_blank">{text} </a></div>
+            <div> {text}</div>
         </FigmaVueStyle>
       </>
     );
   };
   
-  export default FigmaVue;
+  export default AdmonitionExt;
   
