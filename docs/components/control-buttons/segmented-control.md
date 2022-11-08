@@ -4,17 +4,22 @@ title: Segmented Control
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > A segmented control changes the view of the given infographic.
+
 
 ## Variants
 
 A total of five different segmented-controls are available in GEL.
 
-![Segmented control types](img/segmented-control-types.png)
+![Segmented control types](img/segmented-control-types.svg)
+
 
 ## Demo
 
-![segmented-control demo](img/segmented-control-demo.png)
+![segmented-control demo](img/segmented-control-demo.svg)
+
 
 ## Guidance
 
@@ -22,6 +27,17 @@ A total of five different segmented-controls are available in GEL.
 * Segmented control changes a view of a chart or table based on the selection made by the user.
 * A maximum of 4 options can be used as required when creating a segmented control.
 
+
 ## When to use
 
 * Use segmented control when the user requires clear text displayed at all times.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=677%3A67525" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/selectbutton" />
