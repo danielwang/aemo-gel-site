@@ -4,8 +4,11 @@ title: Modal
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > A modal is used to reveal critical information, show information without losing context, or when the system requires a user response. 
 > A modal is also named as *dialog* in PrimeVue, however, the funcitonality remains the same for both.
+
 
 ## Variants
 
@@ -13,20 +16,11 @@ There are two different modals: Default and Danger with 3 different variants for
 
 ![Modal types](img/modal-types.svg)
 
-:::info Figma
-
-See all the available variants of modal by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A16858)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/dialog)
-
-:::
 
 ## Demo
 
 ![Modal demo](img/modal-demo.svg)
+
 
 ## Guidance
 
@@ -37,7 +31,18 @@ Find the source code [here](https://primefaces.org/primevue/dialog)
 * When content can be displayed inline that does not require user action, consider using popover or tooltip.
 * Use Confirm Popup if there are no contents and requires user to take action only for the process to complete.
 
+
 ## When to use
 
 * When the task requirers users input to be completed.
 * To reveal critical information as contents inside the modal without losing the context.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A16858" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/dialog" />

@@ -4,7 +4,10 @@ title: Confirm Popup
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Confirm popup displays a confirmation overlay displayed relatively to its target.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ There are 2 different confirm popups: Default and Danger with 2 different varian
 
 ![Confirm popups types](img/confirmpopup-types.svg)
 
-:::info Figma
-
-See all the available variants of confirm popups by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=636%3A63264)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/confirmpopup)
-
-:::
 
 ## Demo
 
 ![Confirm popups demo](img/confirmpopup-demo.svg)
+
 
 ## Guidance
 
@@ -39,6 +33,17 @@ Find the source code [here](https://primefaces.org/primevue/confirmpopup)
     * The background is disabled until user selects an option.
     * Use a backdrop as provided by the GEL library.
 
+
 ## When to use
 
 * For confirming an action the user is about to take.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=636%3A63264" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/confirmpopup" />
