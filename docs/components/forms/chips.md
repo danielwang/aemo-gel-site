@@ -4,7 +4,10 @@ title: Chips
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Chip represents entities using icons and labels. Chips should appear dynamically as group of interactive elements.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ There is only one form of chip avaliable in GEL.
 
 ![Chips](img/chip.svg)
 
-:::info Figma
-
-See all the available variants of input number by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97147)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/chips)
-
-:::
 
 ## Demo
 
 ![Chips demo](img/chips-demo.svg)
+
 
 ## Guidance
 
@@ -34,6 +28,17 @@ Find the source code [here](https://primefaces.org/primevue/chips)
 * The Input field or Select field will be appended with a “...” if the next Chips cannot fit in. 
 * Chips when used in filter control for chart should take into consideration the width of the available space. Show 1 chip followed by the number of options selected to indicate the number of selections made for that  filter
 
+
 ## When to use
 
 * Chips are majorly used in the input, select state and chart filter under button control.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97147" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/chips" />

@@ -4,7 +4,10 @@ title: Select
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Select inputs are dropdown inputs used when there are multiple options available for a single input field.
+
 
 ## Variants
 
@@ -14,20 +17,11 @@ There are a total of 20 input variations to choose from. They are primarily divi
 | ---    | ---       |
 | ![Select State](img/select-state.svg) | ![Select Substate](img/select-sub-state.svg) |
 
-:::info Figma 
-
-See all the available variants of input by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97638)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/multiselect)
-
-:::
 
 ## Demo
 
 ![Select demo](img/select-demo.svg)
+
 
 ## Guidance
 
@@ -37,6 +31,17 @@ Find the source code [here](https://primefaces.org/primevue/multiselect)
 * Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
 * Use Select if the selection options are more than 5. If less than 5 options, consider using a Radio/Checkboxes.
 
+
 ## When to use
 
 * Use Select inside forms when the input field requries selection to be made from multiple options.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97638" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/multiselect" />
