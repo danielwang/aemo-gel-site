@@ -4,7 +4,10 @@ title: Pagination
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Pagination is a generic component to display content in paged format.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ There are 2 sizes pagination available in GEL: Default and SM.
 
 ![Pagination types](img/pagination-types.svg)
 
-:::info Figma
-
-See all the available variants of pagination by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=8%3A29659)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/paginator)
-
-:::
 
 ## Demo
 
 ![Pagination demo](img/pagination-demo.svg)
+
 
 ## Guidance
 
@@ -35,6 +29,17 @@ Find the source code [here](https://primefaces.org/primevue/paginator)
 * Use the default pagination on page level tables while smaller tables (secondary tables) can use the smaller pagination.
 * Pagination can be omitted if the rows fit the viewport according to the use case.
 
+
 ## When to use
 
 * To break up a list or a large content block into multiple pages that can be navigated sequentially or by choosing a specific page within the set.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=8%3A29659" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/paginator" />

@@ -4,7 +4,10 @@ title: Table
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Table is visual representation to desplay data in tabular format.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ Users are provided with 2 different sized tables in GEL or based on the context 
 
 ![Table types](img/table-cell-block-types.svg)
 
-:::info Figma
-
-See all the available variants of tables by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A17905)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/datatable)
-
-:::
 
 ## Demo
 
 ![Table demo](img/table-demo.svg)
+
 
 ## Guidance
 
@@ -33,7 +27,18 @@ Find the source code [here](https://primefaces.org/primevue/datatable)
 * If the situation is sufficed with a table placehodler, consider using the two table components which would save time in return.
 * A pagination element in a table is displayed at the bottom of the table component when displayed.
 
+
 ## When to use
 
 * Use table component to display the data in a tabular form.
 * Use the building blocks if it requires the table to be custom made.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=6%3A17905" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/datatable" />
