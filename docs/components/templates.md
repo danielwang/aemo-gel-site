@@ -33,6 +33,7 @@ Layout: Fixed | Size: XXL(Default)
 Layout: Fixed | Size: XXXL
 ![Default fixed template ](./assets/fixed-xxxl.svg)
 
+In addition to the above, there are 10 other different sized layouts that can be chosen from GEL.
 
 ## Demo
 
