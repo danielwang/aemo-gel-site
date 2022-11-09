@@ -8,11 +8,13 @@ import AdmonitionExt from '../admonitionExt'
 
 > A button or Call to Action (CTA) button, depending on the situation, will usually prompt users to sign up/register/buy now etc. CTA buttons should be used where the platfrom wants to strongly suggest something that the user should do.
 
+
 ## Variants
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.
 
-![Button types](img/button-types.png)
+![Button types](img/button-types.svg)
+
 
 ## Usage
 
@@ -23,16 +25,11 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 | Danger      | High | Use to let users know they have an option to delete or remove data. They commonly appear in confirmation dialogs as the final confirmation before deleting. |
 | Link button | Low | Use for actions that are less crucial. Tertiary Buttons are not links. They have focus states and are designed with a container. Always have a label that clearly communicates what action will occur if a user clicks or taps the button. |
 
+
 ## Sizes
 
-![Button size](img/button-size.png)
+![Button size](img/button-size.svg)
 
-
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/button)
-
-:::
 
 ## Guidance
 * Buttons should indicate an action.
@@ -42,10 +39,9 @@ Find the source code [here](https://primefaces.org/primevue/button)
 * If using multiple buttons, style and label them distinctly.
 
 
-
 ## Designer assets
-<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A103251" />
 
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=2%3A34946" />
 
 
 ## Developer API

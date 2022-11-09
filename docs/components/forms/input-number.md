@@ -4,7 +4,10 @@ title: Input Number
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Input numbers allows the user to input numeric value only.
+
 
 ## Variants
 
@@ -14,20 +17,11 @@ There are a total of 32 variations of input number to choose from. They are prim
 | ---    | ---       |
 | ![Input number State](img/inputnumber-state.svg) | ![Input number Substate](img/inputnumber-sub-state.svg) |
 
-:::info Figma
-
-See all the available variants of input number by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97366)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/inputnumber)
-
-:::
 
 ## Demo
 
 ![Input number demo](img/inputnumber-demo.svg)
+
 
 ## Guidance
 
@@ -36,6 +30,17 @@ Find the source code [here](https://primefaces.org/primevue/inputnumber)
 * Note: Additional options for designers provided if you want to change the layout of the text to single input or dual(i.e. displaying Currency at all times).
 * Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
 
+
 ## When to use
 
 * Use for numeric input which can be increased/decreased from the action button within the input group.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97366" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/inputnumber" />

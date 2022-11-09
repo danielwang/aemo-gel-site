@@ -4,7 +4,10 @@ title: Tooltip
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > Tooltip directive provides advisory information for a component.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ GEL provides designers with a tooltip that is displayed at the top of any elemen
 
 ![Tooltip types](img/tooltip-types.svg)
 
-:::info Figma
-
-See all the available variants of tooltip by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=8%3A29936)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/tooltip)
-
-:::
 
 ## Demo
 
 ![Tooltip demo](img/tooltip-demo.svg)
+
 
 ## Guidance
 
@@ -37,6 +31,17 @@ Find the source code [here](https://primefaces.org/primevue/tooltip)
 * Should have a delay of 500ms to help confirm hover intent.
 * The text inside a tooltip should always be center aligned.
 
+
 ## When to use
 
 * Use tooltip when an element requires additional information.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=8%3A29936" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/tooltip" />

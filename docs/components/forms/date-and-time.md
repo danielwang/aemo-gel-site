@@ -4,7 +4,10 @@ title: Date and Time
 custom_edit_url: null
 ---
 
+import AdmonitionExt from '../admonitionExt'
+
 > A date and time picker allows the user to select an associated date and time.
+
 
 ## Variants
 
@@ -12,20 +15,11 @@ There are a total of 5 variations of date and time to choose from in GEL.
 
 ![Date and time types](img/date-and-time-types.svg)
 
-:::info Figma
-
-See all the available variants of Date and Time by clicking [here](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97823)
-
-:::
-:::info Code
-
-Find the source code [here](https://primefaces.org/primevue/calendar)
-
-:::
 
 ## Demo
 
 ![Date and time demo](img/date-and-time-demo.svg)
+
 
 ## Guidance
 
@@ -34,6 +28,17 @@ Find the source code [here](https://primefaces.org/primevue/calendar)
 * The placeholder indicates the behaviour in which the selected value will be displayed to the user.
 * The icon in the date and time picker differentiates it from a regular text input even though the functionality are similar.
 
+
 ## When to use
 
 * Use the date and time picker if the user wants to populate the given input field with either Date or Time.
+
+
+## Designer assets
+
+<AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=696%3A97823" />
+
+
+## Developer API
+
+<AdmonitionExt type="vue" url="https://primefaces.org/primevue/calendar" />
