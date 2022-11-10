@@ -15,7 +15,15 @@ Best practice is to start with a mobile-first approach, ensuring all relevant co
 # The Grid
 In order to design for a variety of screen sizes the use of a grid system is advised. A responsive layout grid adapts to screen size and orientation, ensuring a consistency across layouts.
 
- 
+The grid system in GEL is leveraged from Boostrap. While most breakpoints remain the same, the breakpoints in GEL for templates differ in higher resolution catering to larger screens.
+
+|                               | XS        | SM        | MD        | LG        | XL        | XXL(Default)  | XXXL      |
+| ---                           | ---       | ---       | ---       | ---       | ---       | ---           | ---       |
+| Screen size                   | <576px    | >= 576    | >= 768    | >= 992    | >= 1200   | >= 1600       | >= 2560   |
+| Fixed Container/Grid width    | 100%      |  540px    | 720px     | 960px     | 1140px    | 1560px        | 1920px    |
+| Fluid Container/Grid width    | 100%      | 100%      | 100%      | 100%      | 100%      | 100%          | 100%      |
+
+![Grid demo](../img/grid-demo.svg)
 
 # The benefits of responsive design:
 
