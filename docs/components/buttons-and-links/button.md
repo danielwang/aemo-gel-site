@@ -9,6 +9,7 @@ import AdmonitionExt from '../admonitionExt'
 > A button or Call to Action (CTA) button, depending on the situation, will usually prompt users to sign up/register/buy now etc. CTA buttons should be used where the platfrom wants to strongly suggest something that the user should do.
 
 
+<!-- Types of buttons available -->
 ## Variants
 
 There are several types of Buttons with varying degree of emphasis. Emphasis determines a Button's appearance and placement.
@@ -16,6 +17,7 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 ![Button types](img/button-types.svg)
 
 
+<!-- When to use the varients -->
 ## Usage
 
 | Type         | Emphasis | When to use | 
@@ -31,14 +33,47 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 ![Button size](img/button-size.svg)
 
 
+<!-- Guidelines on how to use them -->
 ## Guidance
-* Buttons should indicate an action.
-* They should be discoverable, easy to identify, and specific.
-* Always have a text label within the button container. Icons are optional.
-* Make buttons look and feel clickable.
+
+* The buttons should be discoverable, easy to identify, and specific.
+* Always have a text label within the button container. 
+* Avoid using buttons with icons on either side of the text. Only one icon should be used in either case with the text in the button.
 * If using multiple buttons, style and label them distinctly.
+* Icons are optional. When icons are used in a button, the default button has icon size of SM(16x16px) while the large and block buttons have icon size of Default(24x24px).
+* The icon color should same as the text color used for the button text. 
+* Make buttons look and feel clickable.
+
+### When to use
+
+* Buttons should indicate an action is being performed.
+
+### When not to use
+
+* If you are directing a user to a new location, consider using a [link](../buttons-and-links/links.md) element.
+
+<!-- Alignment Section -->
+## Alignment
+
+Buttons can be aligned left, right, or center depending on the context. Multiple alignments can be combined within a single screen, but not within an individual context. For example, on a single screen the main content uses left alignment, while the sidebar with multiple settings uses right alignment.
+
+* **Left alignment:** In page content and forms where the content is typically unconstrained other than by the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. Left alignment is a benefit for accessibility in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
+
+![Left alignment](img/left-alignment.svg)
+
+* **Right alignment:** In constrained containers like modals and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment.
+
+![Right alignment](img/right-alignment.svg)
+
+* **Center alignment:** Buttons used in empty states are the most ideal scenario to use center alignment. The actions are the only ones available in the context. Keep in mind if the actions navgiates user to another page, use [link](./links.md) instead.
+
+![center alignment](img/center-alignment.svg)
+
+### Considerations
+![Additional considerations](img/button-consideration.svg)
 
 
+<!-- Assets in Figma and PrimeVue -->
 ## Designer assets
 
 <AdmonitionExt type="figma" url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=2%3A34946" />
