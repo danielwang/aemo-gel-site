@@ -83,14 +83,20 @@
 
   article{
     display: flex;
-    border: 1px solid $gel-color-tertiary-slate-100;
+    background-color: $gel-color-tertiary-slate-50;
     border-radius: $gel-radius-md;
     position: relative;
     font-size: $gel-font-size-text-default;
     overflow: hidden;
     margin-top: $gel-spacer-4;
   }
+
+  h3{
+    margin-bottom: $gel-spacer-2 ;
+  }
+
   a{
+    color: $gel-color-tertiary-slate-700;
     &:hover{
       text-decoration: none;
     }
@@ -107,7 +113,7 @@
 }
 
 .featbody{
-  padding: $gel-spacer-3
+  padding: $gel-spacer-4 
 }
 
 

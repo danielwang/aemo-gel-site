@@ -41,7 +41,7 @@ const features = [
     imageUrl: 'img/feat-1.svg',
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. 
+        These foundational guidelines and role based playbooks work together to help our teams create inclusive solutions.
       </>
     ),
   },
@@ -51,7 +51,7 @@ const features = [
     imageUrl: 'img/feat-3.svg',
     description: (
       <>
-        Squis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam.
+        It clearly defined rules and standards that communicate how your brand should be represented to the world
       </>
     ),
   },
@@ -61,7 +61,7 @@ const features = [
     imageUrl: 'img/feat-2.svg',
     description: (
       <>
-       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+       It contains a set of versatile building blocks designed to work together to form patterns and create cohesive UI.
       </>
     ),
   },
@@ -71,7 +71,7 @@ const features = [
     imageUrl: 'img/feat-4.svg',
     description: (
       <>
-       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+       Where you can contribute ideas and suggestions around how the GEL grows to continue to meet our needs at AEMO.
       </>
     ),
   },
@@ -98,7 +98,7 @@ function Feature({url, imageUrl, title, description}) {
     <div className={clsx('col col--6', styles.feature)}>
       <article>
         {imgUrl && (
-            <img src={imgUrl} alt={title}  width='150'/>
+            <img src={imgUrl} alt={title}  width='160'/>
         )}
         <div className={styles.featbody}>
           <h3><a href={url}>{title}</a></h3>
@@ -158,10 +158,10 @@ function Home() {
       </main>
       <section className={styles.summary}>
         <div className='container'>
-          <h2>Title of something</h2>
+          <h2>Our vision</h2>
           <div className='row'>
             <p className='col col--8 col--offset-2'>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              GEL is an ultimate guide to craft the digital experience of all initiatives supporting participants, clients, empowering partners and our team.
             </p>
           </div>
         </div>  
