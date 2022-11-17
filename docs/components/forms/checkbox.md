@@ -29,10 +29,16 @@ There are a total of 6 variations of checkboxes available in GEL to choose from.
 * Consider using a Select if the options provided are more than 5.
 * An intermediate state of checkbox can also be displayed when only some options are selected.
 
+### When to use
 
-## When to use
+* Checkboxes are used in a form or multiselect dropdown for a user to indicate a selection of one or more options.D
 
-* Checkboxes are used in a form or multiselect dropdown for a user to indicate a selection of one or more options.
+### When not to use
+
+* If you are wanting to have a change immediately applied when an option is selected, consider using a [toggle/switch](switch.md) instead.
+* If selecting an option would change the state or view of other content, consider using a [segmented control](../control-buttons/segmented-control.md) instead.
+
+![Checkbox do and don't](img/checkbox-considerations.svg)
 
 
 ## Designer assets

@@ -25,9 +25,12 @@ A total of three button controls are available in GEL.
 
 * Button control are actionable items that can be used for infographics/charts and tables.
 * Button control are similar to Toolbar but differs in the fact that it acts a sole actionable item rather than group.
+* Button control with dropdown can be clicked like any other CTAs but it will show the list of options upon click without the ability to type.
+* The gap between control-buttons on the same line is spacer-2.
 
+![Button control dropdown demo](img/button-control-dropdown.svg)
 
-## When to use
+### When to use
 
 * Button control can be used in cohesion with Segmented control and Toolbar for infographics/charts and tables.
 

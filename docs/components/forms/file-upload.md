@@ -25,6 +25,7 @@ There is one file upload component available in GEL.
 
 * A single file upload component attaches one file at a time. Additional upload component can be used to add multiple files. 
 * The attached file name will be displayed in File selection label area. If no files are selected, this area is displayed as “No file chosen”.
+* When the file has been attached, a toast message should be displayed to indicate that a file has been attached.
 * The upload is triggered when the user submits the form.
 
 
