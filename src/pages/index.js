@@ -134,9 +134,12 @@ function Home() {
           </div>
           {roles && roles.length > 0 && (
             <section className={styles.roles}>
+                <p>I am:</p>
+                <div className={styles.roleslist}>
                   {roles.map((props, idx) => (
                     <Role key={idx} {...props} />
                   ))}
+                </div>
             </section>
           )}
         </div> 

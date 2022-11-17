@@ -50,27 +50,28 @@
 }
 
 .roles{
-  margin-top: $gel-spacer-7;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  .role{
-    text-decoration: none;
-    background-color: rgba($gel-color-secondary-teal, .25);
-    border-radius: $gel-radius-md;
-    backdrop-filter: blur(5px);
-    padding: $gel-spacer-3;
-    transition: background-color $gel-motion-ease-in $gel-duration-medium;
-    &:hover{
-      background-color: rgba($gel-color-primary-purple-500, .75);
-    }
+  margin-top: $gel-spacer-6;
+  .roleslist{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    .role{
+      text-decoration: none;
+      background-color: rgba($gel-color-secondary-teal, .25);
+      border-radius: $gel-radius-md;
+      backdrop-filter: blur(5px);
+      padding: $gel-spacer-3;
+      transition: background-color $gel-motion-ease-in $gel-duration-medium;
+      &:hover{
+        background-color: rgba($gel-color-primary-purple-500, .75);
+      }
 
-    h3{
-      color: white
+      h3{
+        color: white
+      }
     }
   }
 }
-
 .features{
   padding-top: $gel-spacer-5 * 2;
   padding-bottom: $gel-spacer-5 * 2;
