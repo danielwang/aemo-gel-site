@@ -26,6 +26,7 @@ A total of four different toolbars are available in GEL.
 * All icons should be accompanied with a tooltip.
 * There can be multiple toolbars exisiting together with different functionalities.
 * Additional actionable items/icon that are less important can be hidden under the ellipse sign.
+* The gap between control-buttons on the same line is spacer-2.
 
 
 ## When to use
