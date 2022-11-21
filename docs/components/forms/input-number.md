@@ -31,9 +31,17 @@ There are a total of 32 variations of input number to choose from. They are prim
 * Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
 
 
-## When to use
+### When to use
 
 * Use for numeric input which can be increased/decreased from the action button within the input group.
+
+### When no to use
+
+* If the input required is alphanumeric or not entirely numeric, consider using [Input](input.md) or [Select](select.md) which is better suited for alphanumeric and non numeric values.
+
+### Consideration
+
+![Input number consideration](img/inputnumber-consideration.svg)
 
 
 ## Designer assets
