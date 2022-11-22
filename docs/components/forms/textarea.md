@@ -11,7 +11,7 @@ import AdmonitionExt from '../admonitionExt'
 
 ## Variants
 
-There are a total of 16 textarea to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 20 textarea to choose from. They are primarily divided into 4 different states (Default, Active, Filled, Disabled, and Error) of inputs.
 
 | States | Sub States|
 | ---    | ---       |
@@ -26,14 +26,17 @@ There are a total of 16 textarea to choose from. They are primarily divided into
 ## Guidance
 
 * A textarea is ideally resizable by default. The textarea can also be non resizable as per the requirement.
-* Textarea and Editor are similar. However, they differ in the fact that Editro allows user to format the text. Consider using Editor is such scenarios requiring text formatting.
+* Textarea and Editor are similar. However, they differ in the fact that Editro allows user to format the text. 
 * Labels, Required, Placeholders, Inline messages and Help text guidance same as in Inputs.
 
+### When to use
 
-## When to use
-
-* Use textarea to capture user inputs in the form of messages or long texts. 
+* Use textarea to capture user inputs in the form of messages or long texts  .
 * Inputs that allow user to write small paragraphs without formatting should be ideal situation to use textarea.
+
+### When not to use
+
+* If you want to provide user with format options, consider using a [editor](editor.md) instead.
 
 
 ## Designer assets

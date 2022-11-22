@@ -18,7 +18,7 @@ A total of 8 variants of listboxes are available in GEL. 4 with checkboxes and 4
 
 ## Demo
 
-![Input demo](img/select-demo.svg)
+![Listbox demo](img/listbox-demo.svg)
 
 
 ## Guidance
@@ -27,10 +27,18 @@ A total of 8 variants of listboxes are available in GEL. 4 with checkboxes and 4
 * Listbox in a multi select input will close the Listbox after the user has clicked anywhere outside the Listbox dialog.
 * When user searches for a value in the listbox, the list should be filtered to match the search value.
 
-
-## When to use
+### When to use
 
 * Listbox are used to display multiple options for a select input.
+
+### When no to use
+
+* If the options withing the panel or dropdown performs actions, consider using a menu instead.
+* If the options to be displayed are less than 5, consider using [checkbox](checkbox.md) or [radio button](radio.md) group instead of a select with listbox(combobox).
+
+### Consideration
+
+![Lisbox consideration](img/listbox-consideration.svg)
 
 
 ## Designer assets

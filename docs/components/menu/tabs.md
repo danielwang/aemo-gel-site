@@ -25,13 +25,16 @@ There are a total of 6 variations of Tabs to choose from in GEL.
 
 * A tab reveals associated content when activated.
 * Only one tab can be active at a time.
-* Tabs should not be confused with navigation. Tabs help user remain in the same context while navigation changes the context.
+* The large variation of tabs are page level provided by the template. The smaller default sized tabs can be used for content level tabs.
 
-
-## When to use
+### When to use
 
 * Tabs are used to show one content section at a time while maintaining a view of related options.
 
+### When not to use
+
+* If content is part of a flow, consider using the [steps](steps.md) component instead.
+* Avoid confusing tabs with navigation links. Tabs help users remain in the same context; use navigation [link](../buttons-and-links/links.md) for changing context.
 
 ## Designer assets
 
