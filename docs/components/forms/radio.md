@@ -27,12 +27,14 @@ There are a total of 5 variants of radio button availabe in GEL.
 * All radio should be followed by text in a from.
 * One radio button should be selected by default using the checked attribute.
 * Users are able to select an option by clicking/tapping either the radio button or its label.
-* Consider using a single Select if the options provided are more than 5.
 
-
-## When to use
+### When to use
 
 * Use radio buttons to present a set of options, where only one option can be selected at a time.
+
+### When not to use
+
+* If the options provided are more than 5, consider using a [Select](select.md) instead.
 
 
 ## Designer assets

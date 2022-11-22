@@ -13,23 +13,26 @@ import AdmonitionExt from '../admonitionExt'
 
 There are 3 different sized varients of steps provided in GEL. Default(SM), MD and LG.
 
-![Breadcrumb types](img/steps-types.svg)
+![Steps types](img/steps-types.svg)
 
 
 ## Demo
 
-![Breadcrumb demo](img/steps-demo.svg)
+![Steps demo](img/steps-demo.svg)
 
 
 ## Guidance
 
 * Steps are used when the user are not regular to the process/workflow and require assistance to complete the workflow.
 * Steps allows user to fill in data one by one before moving to another step in the the workflow.
+* When using steps, make sure the steps are not very long. A 15 step wizard would not be intuitive for the user to go through.
+* Refrain from using a step component inside another step. The process should be for only one end result.
 
 
-## When to use
+### When to use
 
 * Use steps when the workflow is new for the user or occasional.
+* Use steps as indicator of a user's progress within a process, i.e, in a checkbout flow.
 
 
 ## Designer assets

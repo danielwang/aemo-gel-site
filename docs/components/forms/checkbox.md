@@ -38,6 +38,8 @@ There are a total of 6 variations of checkboxes available in GEL to choose from.
 * If you are wanting to have a change immediately applied when an option is selected, consider using a [toggle/switch](switch.md) instead.
 * If selecting an option would change the state or view of other content, consider using a [segmented control](../control-buttons/segmented-control.md) instead.
 
+### Consideration
+
 ![Checkbox do and don't](img/checkbox-considerations.svg)
 
 

@@ -29,7 +29,7 @@ There are a total of 4 variations of Trees to choose from in GEL.
 
 ## When to use
 
-* Create hiereachical structures to view and access parent and child nodes.
+* Create hiereachical structures to view and access parent and child nodes. A good example would be to show folders and file structure.
 
 
 ## Designer assets

@@ -11,7 +11,7 @@ import AdmonitionExt from '../admonitionExt'
 
 ## Variants
 
-There are a total of 6 variations of Tabs to choose from in GEL.
+There is only 1 breadcrumb available in GEL.
 
 ![Breadcrumb types](img/breadcrumb-type.svg)
 
@@ -23,10 +23,10 @@ There are a total of 6 variations of Tabs to choose from in GEL.
 
 ## Guidance
 
-* tbd
+* Breadcrumb is priovided as one of the variation of the template.
+* All level of breadcrumbs are clickable and should talk user to that category.
 
-
-## When to use
+### When to use
 
 * Breadcrumbs are used to show the hierarchical location at which the user is currently in.
 

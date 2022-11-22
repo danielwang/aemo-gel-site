@@ -11,7 +11,7 @@ import AdmonitionExt from '../admonitionExt'
 
 ## Variants
 
-There are a total of 20 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Disabled, and Error) of inputs.
+There are a total of 24 input variations to choose from. They are primarily divided into 4 different states (Default, Active, Filled, Disabled, and Error) of inputs.
 
 | States | Sub States|
 | ---    | ---       |
@@ -32,10 +32,13 @@ There are a total of 20 input variations to choose from. They are primarily divi
 * Use Select if the selection options are more than 5. If less than 5 options, consider using a Radio/Checkboxes.
 
 
-## When to use
+### When to use
 
 * Use Select inside forms when the input field requries selection to be made from multiple options.
 
+### Consideration
+
+![Select consideration](img/select-consideration.svg)
 
 ## Designer assets
 

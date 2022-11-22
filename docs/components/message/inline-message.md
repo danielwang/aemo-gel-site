@@ -13,12 +13,12 @@ import AdmonitionExt from '../admonitionExt'
 
 There are 4 different sized varients of inline messages provided in GEL. Info, Success, Warning and Danger
 
-![Banner types](img/inline-message-types.svg)
+![Inline message types](img/inline-message-types.svg)
 
 
 ## Demo
 
-![Banner demo](img/inline-message-demo.svg)
+![Inline message demo](img/inline-message-demo.svg)
 
 
 ## Guidance
@@ -26,8 +26,7 @@ There are 4 different sized varients of inline messages provided in GEL. Info, S
 * Inline messages should be displayed underneath the input fields/select/input numbers when validation fails for that component.
 * One field can have a maximum of one inline message at any instance.
 
-
-## When to use
+### When to use
 
 * Use inline messages to inform the user of validations applied to the form elements.
 

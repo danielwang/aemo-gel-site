@@ -28,7 +28,7 @@ A total of 6 variants of sliders are available in GEL.
 * Active state is triggered when the user slides the range selector or inputs value into the input box
 
 
-## When to use
+### When to use
 
 * Slider should be used in occasions that require a UI reflecting the value user selects.
 

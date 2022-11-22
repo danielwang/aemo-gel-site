@@ -23,13 +23,17 @@ There are 3 different sized varients of banners provided in GEL. Info, Preprod a
 
 ## Guidance
 
-* Banner should always be the first itme on the page when displayed.
+* Banner should always be the first item on the page when displayed.
 * Banners are non closable in behaviour meaning they remain at the top of the page until the entirety of the frame.
 
-
-## When to use
+### When to use
 
 * Use banner when user would require information about the page at the top level.
+
+### When not to use
+
+* If you need to communicate that a feature hasn't been configured or used, consider using an empty state instead.
+* If you need to communicate status of the contents of the page, consider using an [alert](alert.md) instead.
 
 
 ## Designer assets

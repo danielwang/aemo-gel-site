@@ -13,22 +13,29 @@ import AdmonitionExt from '../admonitionExt'
 
 There are 4 different sized varients of alerts provided in GEL. Info, Success, Warning and Error
 
-![Banner types](img/alert-types.svg)
+![Alert types](img/alert-types.svg)
 
 
 ## Demo
 
-tbd
+![Alert types](img/alert-demo.svg)
 
 
 ## Guidance
 
-* tbd
+* Alert is generally in page level with the second highest priority after [banner](banner.md).
+* An alert ideally sits underneath the page heading above all the content for that particular page as displayed in the demo above.
+* An alert can be used in combination with from validation to help users remedy errors.
 
+### When to use
 
-## When to use
+* Use alert to advise the user that they should be aware of, or address something related to their current context.
+* Educate the user about new or unused feature, or information related to their current context.
 
-* tbd
+### When not to use
+
+* If you are immediately confirming a user's action while they remain in the same view, use a [toast](toast.md) instead.
+* If you are promoting, soliciting feedback, or informing a user about a feature, use a [banner](banner.md) instead.
 
 
 ## Designer assets
