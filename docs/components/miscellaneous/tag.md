@@ -24,12 +24,13 @@ GEL provides 10 different tags to be used in the system.
 ## Guidance
 
 * A tag is static (non-interactive) by default.
+* Tags can help categorize and organize the content based on the metadata provided by each data.
+* Tags shouldn't be a standalone, floating element. If it can't be placed withing relationship to the object it supports, consider using another method that provides more context for the metadata.
 * Avoid using long text strings inside a tag.
 
+### When to use
 
-## When to use
-
-* Use tag to highlight highlight metadata that provides additional meaning to the primary element.
+* Use tag to highlight metadata that provides additional meaning to the primary element.
 
 
 ## Designer assets

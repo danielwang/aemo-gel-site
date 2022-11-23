@@ -23,14 +23,17 @@ There are 3 different types of progress spinners available to choose from in GEL
 
 ## Guidance
 
-* User spinner to indicate background activity is in progress.
-* Ideally, only one spinner should be used at a time. If a larger section of content is loading, consider using a larger size spinner instead of multiple smaller ones or a skeleton loader instead.
-* Similar to progress bar, if the spinner is either MD or LG, they should be accompanied with a text informing what action/process is taking place.
+* User spinner to indicate background activity which takes short period of time is in progress .
+* Similar to progress bar, if the spinner is either MD or LG, consider accompanying the spinner with a text informing what action/process is taking place.
 
+### When to use
 
-## When to use
+* When an action has been taken and the server/process takes short time to load new data/content.
 
-* When an action has been taken and the server/process takes time to load new data/content.
+### When not to use
+
+* Ideally, only one spinner should be used at a time. If a larger section of content is loading, consider using a larger size spinner instead of multiple smaller ones or a [skeleton loader](skeleton.md) instead.
+* If the process takes a long period of time such as importing data or exporting reports, consider using a [progress bar](progress-bar.md) instead.
 
 
 ## Designer assets

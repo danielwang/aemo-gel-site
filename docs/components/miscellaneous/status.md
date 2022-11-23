@@ -24,6 +24,7 @@ GEL provides 9 different status variants to be used in the system.
 ## Guidance
 
 * Status component are to be used with index indicating the purpose of each colored status.
+* *Requires further discussion on how to use.*
 
 
 ## When to use
