@@ -27,11 +27,19 @@ There are 3 different types of progress bars available to choose from in GEL.
 * Similar to spinner, in ideal scenario, there would be only one Progress bar at a time in a frame/screen.
 * The progress bar component should be supported by visible text indicating what the bar is for, and the units of progress represented.
 
-
-## When to use
+### When to use
 
 * Scenarios to let user inform percentage of completion of a  process.
-* Can be used in combination with Steps.
+
+### When not to use
+
+* If the amount of time or progress state cannot be calculate, consider using a [progress spinner](progress-spinner.md) instead.
+* If you are loading a content after action has been completed and waiting to get the data, consider using a [skeleton](skeleton.md) instead.
+* If running a wizard with discrete steps, consider using a [step](../menu/steps.md) instead.
+
+### Consideration
+
+![Progress bar consideration](img/progress-bar-consideration.svg)
 
 
 ## Designer assets
