@@ -23,21 +23,24 @@ There are 2 different confirm popups: Default and Danger with 2 different varian
 
 ## Guidance
 
-* Spot Confirm popup
-    * should be displayed relative to the action item.
-    * Use “Spacer 1” gap between the action element and the confirmation popups.
-    * Dialog box and modals are of the highest elevation states in the system. Use “Elevation LG” for Confirmation popups.
-    * Start position of the popup should be left aligned to the action item.
-* Confirm Dialog
-    * To be used when user needs uninterrupted focus on the action.
-    * The background is disabled until user selects an option.
-    * Use a backdrop as provided by the GEL library.
+* Confirm popup should be used when the the confirmation can be displayed relative to the action button.
+* Use “Spacer 1” gap between the action element and the confirmation popups.
+* Dialog box and modals are of the highest elevation states in the system. Use “Elevation LG” for Confirmation popups.
+* Start position of the popup should be left aligned to the action item.
 
+### When to use
 
-## When to use
+* Use confirm popup for confirming an action the user is about to take without interrupting any flow.
+* When the user requires a spot action to a CTA.
 
-* For confirming an action the user is about to take.
+### When not to use
 
+* If the user requires uninterrupted attention and action must be taken before moving forward, consider using [modal](modal.md) instead.
+* If the CTA doesn't require confirmation of any kind and just displaying additional actions, consider using other appropriate components such as [menu](tiered-menu)instead.
+
+### Considerations
+
+![Confirm popups consideration](img/confirmpopup-considerations.svg)
 
 ## Designer assets
 

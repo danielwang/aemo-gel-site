@@ -28,13 +28,12 @@ GEL provides designers with a tooltip that is displayed at the top of any elemen
 * Tooltip should be at a gap of spacer-2 with the element.
 * Actionable icons/toolbar which does not have a accompanying text should have tooltip added to the icons/toolbar.
 * Should remain in place when user moves cursor within the target element.
-* Should have a delay of 500ms to help confirm hover intent.
 * The text inside a tooltip should always be center aligned.
 
-
-## When to use
+### When to use
 
 * Use tooltip when an element requires additional information.
+* Consider using tooltip on icon only buttons such as [toolbar](../control-buttons/toolbar.md)
 
 
 ## Designer assets
