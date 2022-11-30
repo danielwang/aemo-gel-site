@@ -11,7 +11,7 @@ import AdmonitionExt from '../admonitionExt'
 
 ## Variants
 
-Users are provided with 2 different sized tables in GEL or based on the context the user can create custom table by using the table cell blocks provided by GEL.
+Users are provided with 2 different sized tables (SM and MD) in GEL or based on the context the user can create custom table by using the table cell blocks provided by GEL.
 
 ![Table types](img/table-cell-block-types.svg)
 
@@ -27,8 +27,7 @@ Users are provided with 2 different sized tables in GEL or based on the context 
 * If the situation is sufficed with a table placehodler, consider using the two table components which would save time in return.
 * A pagination element in a table is displayed at the bottom of the table component when displayed.
 
-
-## When to use
+### When to use
 
 * Use table component to display the data in a tabular form.
 * Use the building blocks if it requires the table to be custom made.

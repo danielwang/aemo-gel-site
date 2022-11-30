@@ -24,13 +24,12 @@ There are 2 sizes pagination available in GEL: Default and SM.
 ## Guidance
 
 * Ideally pagination should be used in tables only regardless of whether the table is page level or spot level.
-* Pagination should be centrally aligned and floated at the bottom of the viewport and not immediately after the end of the last row of the table.
+* Pagination should be centrally aligned after the end of the last row of the table.
 * Since pagination is a form of navigation, wrapping this in a `<nav>` element with adding aria-label is strongly suggested for accessibility purpose.
 * Use the default pagination on page level tables while smaller tables (secondary tables) can use the smaller pagination.
 * Pagination can be omitted if the rows fit the viewport according to the use case.
 
-
-## When to use
+### When to use
 
 * To break up a list or a large content block into multiple pages that can be navigated sequentially or by choosing a specific page within the set.
 
