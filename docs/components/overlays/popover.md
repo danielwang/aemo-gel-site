@@ -24,16 +24,23 @@ GEL provides designers with a popover that is displayed next to the help icon.
 ## Guidance
 
 * Popover should be used in conjunction with the help icon to provide extended information for the target element.
+* The informatin provided in a popover is not necessarily critical for the user to act upon.
 * Popover is an actionable overlay, therefore requiring user to click the icon to dipslay the popover.
-* Use Tooltip if its not multiline and requires no extra information.
-* Consider using Modal if you are displaying information that require action to complete the task.
+* Popover can be dismissed by either clicking the close icon that comes with the component or when clicking outside.
 
-
-## When to use
+### When to use
 
 * When you don’t want to lose the context but still would like to provided extended information to the user.
 * Should be used to provide short summaries about the target element.
 
+### When not to use
+
+* Use [tooltip](tooltip.md) if its not multiline and requires no extra information.
+* Consider using [modal](modal.md) if you are displaying critical information that require action to complete the task.
+
+### Consideration
+
+![Popover consideration](img/popover-consideration.svg)
 
 ## Designer assets
 

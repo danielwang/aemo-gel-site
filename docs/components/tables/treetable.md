@@ -27,8 +27,7 @@ Similar to table, treetable are provided as building blocks to create any kind o
 * Data cell component is equivalent to level 1 item without hierarchy.
 * Level 3 cannot have inner childs/hierarchy. 
 
-
-## When to use
+### When to use
 
 * Use treetables when there are usages of hierarchy/tree structure inside a table.
 
