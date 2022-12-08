@@ -5,6 +5,8 @@ custom_edit_url: null
 ---
 
 import AdmonitionExt from '../admonitionExt'
+import Video from '../video'
+
 
 > Table is visual representation to desplay data in tabular format.
 
@@ -26,6 +28,12 @@ Users are provided with 2 different sized tables (SM and MD) in GEL or based on 
 * The building blocks of table can be pieced together to create a table.
 * If the situation is sufficed with a table placehodler, consider using the two table components which would save time in return.
 * A pagination element in a table is displayed at the bottom of the table component when displayed.
+* Use [button control](../control-buttons/button-control.md) as table filters with the label floating when active or any value is selected.
+* The following behaviour takes place when a filter is being selected for a table.
+<Video filename="filter-behaviour.mp4" />
+
+* For bulk actions such as downloads and delete, a pop up should be displayed from the bottom with actionable items.
+<Video filename="bulk-action.mp4" />
 
 ### When to use
 
