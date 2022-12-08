@@ -30,16 +30,15 @@ Users are provided with 2 different sized tables (SM and MD) in GEL or based on 
 * A pagination element in a table is displayed at the bottom of the table component when displayed.
 * Use [button control](../control-buttons/button-control.md) as table filters with the label floating when active or any value is selected.
 * The following behaviour takes place when a filter is being selected for a table.
-<Video source="../../../videos/filter-behaviour.mp4" />
+<Video filename="filter-behaviour.mp4" />
 
 * For bulk actions such as downloads and delete, a pop up should be displayed from the bottom with actionable items.
-<Video source="../../../videos/bulk-action.mp4" />
+<Video filename="bulk-action.mp4" />
 
 ### When to use
 
 * Use table component to display the data in a tabular form.
 * Use the building blocks if it requires the table to be custom made.
-
 
 
 ## Designer assets
