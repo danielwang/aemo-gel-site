@@ -55,11 +55,7 @@ There are several types of Buttons with varying degree of emphasis. Emphasis det
 <!-- Alignment Section -->
 ## Alignment
 
-Buttons can be aligned left, right, or center depending on the context. Multiple alignments can be combined within a single screen, but not within an individual context. For example, on a single screen the main content uses left alignment, while the sidebar with multiple settings uses right alignment.
-
-* **Left alignment:** In page content and forms where the content is typically unconstrained other than by the grid layout. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. Left alignment is a benefit for accessibility in many ways, including reading flow, focus order, and page zoom where right-aligned buttons may be initially off screen.
-
-![Left alignment](img/left-alignment.svg)
+Buttons can be aligned left, right, or center depending on the context. Multiple alignments can be combined within a single screen, but not within an individual context. As a pattern, button placement in GEL for the primary actionable items are right aligned in most scenarios.
 
 * **Right alignment:** In constrained containers like modals and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment.
 
