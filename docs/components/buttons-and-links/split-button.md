@@ -5,6 +5,7 @@ custom_edit_url: null
 ---
 
 import AdmonitionExt from '../admonitionExt'
+import Video from '../video'
 
 > Split buttons are CTAs that trigger additional options similar to dropdown buttons but differs in the functionality part where split button always has a default action while dropdown does not.
 
@@ -28,6 +29,7 @@ There are eight different vairants of split buttons available in GEL.
 ### When to use
 
 * Split buttons are to be used when an action needs to be a default action and other available actions can be organized inside the dropdown button.
+<Video filename="split-behaviour.mp4" />
 
 ### When not to use
 

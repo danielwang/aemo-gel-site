@@ -5,6 +5,7 @@ custom_edit_url: null
 ---
 
 import AdmonitionExt from '../admonitionExt'
+import Video from '../video'
 
 > Toast is used to display messages over the top of the conent as an overlay.
 
@@ -27,6 +28,7 @@ There are 3 different sized varients of toast provided in GEL. Info, Success and
 * Toast messages can also be closed manually by clicking the closing icon.
 * All Toast messages should be accompanied with an icon and text.
 * Multiple toast messages can be stacked like a list with gaps between the messages but never overlap each other. 
+<Video filename="toast-behaviour.mp4" />
 
 ### When to use
 

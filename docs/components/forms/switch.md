@@ -31,13 +31,13 @@ There are a total of 5 variants of switch availabe in GEL.
 ### When to use
 
 * Use switch in instances where the input requires a boolean relaionship like on/off, true/false, enable,disable or activate/deactivate.
-* The view
+* Use switch to show immediate change that does not require user to save the action as in forms.
 
 ### When not to use
 
 * If a submit button is required to apply the selection, please do not use switch as the application of switch is immediate.
-* If multiple items can be selected, including nested items, and the result of the selectio nhas to be saved or submitted, consider using a [checkbox](checkbox.md) instead.
-* If only one itme can be selected and the result of the selection has to be saved or submitted, consider using a [radio button](radio.md) instead.
+* If multiple items can be selected, including nested items, and the result of the selection has to be saved or submitted, consider using a [checkbox](checkbox.md) instead.
+* If only one item can be selected and the result of the selection has to be saved or submitted, consider using a [radio button](radio.md) instead.
 * If making a selection from a list of items, consider using a [listbox](listbox.md) instead.
 * If changing a content view or preference in the context of that content, consider using a [segmented control](../control-buttons/segmented-control.md) instead.
 

@@ -33,7 +33,7 @@ A total of 8 variants of listboxes are available in GEL. 4 with checkboxes and 4
 
 ### When no to use
 
-* If the options withing the panel or dropdown performs actions, consider using a menu instead.
+* If the options withing the panel or dropdown performs actions, consider using one of the available variation [tiered menu](../menu/tiered-menu.md) instead.
 * If the options to be displayed are less than 5, consider using [checkbox](checkbox.md) or [radio button](radio.md) group instead of a select with listbox(combobox).
 
 ### Consideration
