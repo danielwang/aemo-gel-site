@@ -6,7 +6,7 @@ custom_edit_url: null
 
 import AdmonitionExt from './admonitionExt'
 
-> Page tempales are the skeletons to be used to produce any design within the breakpoints. Templates allows the designers to align contents within the [grid system](../foundations/responsive.md) provided by GEL.
+> Page tempales are the skeletons to be used to produce any design within the breakpoints. Templates allows the designers to align contents within the [grid system](../guides/foundations/responsive.md) provided by GEL.
 
 The templates are created based off of the grid system provided by Boostrap. While most breakpoints remain the same, the breakpoints in GEL for templates differ in higher resolution catering to larger screens.
 

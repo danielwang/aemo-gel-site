@@ -8,14 +8,15 @@ title: Community
 
 This is a Markdown page
 
-How do I engage with UX with initiatives?
+
 
 [Initiative Flow](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow) 
 
+## FAQ
 
 <details>
-<summary>Some details containing headings</summary>
-    [Initiative Flow](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow) 
+    <summary>How does my initiative engage with UX?</summary>
+    We have a <a target="_blank" href="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow">Initiative Flow</a>
 </details>
 <details>
 <summary>Some details containing headings</summary>

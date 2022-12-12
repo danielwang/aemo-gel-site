@@ -2,6 +2,7 @@
 id: type
 title: Typography
 custom_edit_url: null
+sidebar_position: 1
 ---
 
 >Typography is an essential part of the AEMO visual system. When used consistently, it unifies messaging and creates familiarity.

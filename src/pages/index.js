@@ -127,7 +127,7 @@ function Home() {
                   'button button--secondary',
                   styles.cta,
                 )}
-                to={useBaseUrl('docs/intro/introduction')}>
+                to={useBaseUrl('docs/guides/introduction')}>
                 Get Started
               </Link>
             </span>
