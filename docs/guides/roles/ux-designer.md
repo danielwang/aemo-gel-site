@@ -5,6 +5,9 @@ custom_edit_url: null
 sidebar_position: 1
 ---
 
+import Foundation from '../foundation'
+import Foundations from '../foundations'
+
 >What do I need to know as a UX designer? Here are the resources to help designers onboarding! 
 
 ## Design Practice
@@ -31,12 +34,19 @@ The GEL Design System provides the following brand and design foundations that s
 - [Iconography](../foundations/icons), designed to communicate meaning and aid navigation. 
 - [Responsive](../foundations/responsive), ensuring that we can create a single solution and scale it to all devices and operating systems.
 - [Accessible](../foundations/accessibility), ensuring that our solutions consider the needs of all our digital customers. Read about why accessibility matters
+- [Writing guideline](../foundations/writing)
 
 ### Using GEL Figma
 Learn how to use our [design system in Figma](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1), from our UI Kit to the asset library itself.
 
-
-
+<Foundations>
+    <Foundation name="figma" />
+    <Foundation name="vue" />
+    <Foundation name="figma" />
+    <Foundation name="vue" />
+    <Foundation name="figma" />
+    <Foundation name="vue" />
+</Foundations>
 
 ## Tools
 
