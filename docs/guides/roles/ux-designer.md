@@ -26,27 +26,24 @@ The [Initiative Flow](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580
 Use common tools to ensure individual projects across the organisation deliver on brand and connected customer experiences optimised for the digital channel
 
 
-The GEL Design System provides the following brand and design foundations that support you to achieve highly scalable solutions. Please have a read about [AEMO Design Tokens](../design-tokens/intro.md) before diving into the topics below:
+The GEL Design System provides the following brand and design foundations that support you to achieve highly scalable solutions.
 
-
-- [Colours](../foundations/colours), accessible palettes that achieve consistency. 
-- [Typography](../foundations/type), fonts to communicate our brand personality. 
-- [Iconography](../foundations/icons), designed to communicate meaning and aid navigation. 
-- [Responsive](../foundations/responsive), ensuring that we can create a single solution and scale it to all devices and operating systems.
-- [Accessible](../foundations/accessibility), ensuring that our solutions consider the needs of all our digital customers. Read about why accessibility matters
-- [Writing guideline](../foundations/writing)
+<Foundations>
+    <Foundation name="design tokens" />
+    <Foundation name="colours" />
+    <Foundation name="typography" />
+    <Foundation name="icons" />
+    <Foundation name="responsive" />
+    <Foundation name="accessibility" />
+    <Foundation name="library" />
+    <Foundation name="figma" />
+    <Foundation name="writing guideline" />
+</Foundations>
 
 ### Using GEL Figma
 Learn how to use our [design system in Figma](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1), from our UI Kit to the asset library itself.
 
-<Foundations>
-    <Foundation name="figma" />
-    <Foundation name="vue" />
-    <Foundation name="figma" />
-    <Foundation name="vue" />
-    <Foundation name="figma" />
-    <Foundation name="vue" />
-</Foundations>
+
 
 ## Tools
 
