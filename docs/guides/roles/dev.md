@@ -15,9 +15,7 @@ Hi-fidelity UI mockups should be provided by UX designer
 
 <Foundations>
     <Foundation name="responsive" />
-    <Foundation name="design tokens" />
     <Foundation name="accessibility" />
-    <Foundation name="library" />
     <Foundation name="colours" />
     <Foundation name="typography" />
     <Foundation name="icons" />
@@ -26,15 +24,12 @@ Hi-fidelity UI mockups should be provided by UX designer
 ## UI Development
 
 <Foundations>
-    <Foundation name="responsive" />
     <Foundation name="design tokens" />
-    <Foundation name="accessibility" />
     <Foundation name="library" />
-    <Foundation name="colours" />
-    <Foundation name="typography" />
-    <Foundation name="icons" />
+    <Foundation name="utilities" />
 </Foundations>
 
+### Tech docs
 [Common-web-Vue3](https://aemocdr.atlassian.net/wiki/spaces/ITDEV/pages/2277409492/Using+Common-Web-Vue3) includes user interface styling, components and assets that help ensure consistency for application development and alignment with UX/UI standards (GEL).
 
 
