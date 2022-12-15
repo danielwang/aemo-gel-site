@@ -4,7 +4,7 @@ title: Responsive Design
 custom_edit_url: null
 ---
 
-![Grid hero](../img/grid-hero.svg)
+![Grid hero](../../img/grid-hero.svg)
 
 >9 out of 10 Australians own a mobile phone and the number of mobile users now matches the number of desktop users.
 
@@ -43,18 +43,18 @@ The grid consists of 12 columns differing in screen sizes. A gutter is applied i
 
 The image below shows how the contents or divs can be divided into different parts of the grid. Since, we are using a 12 grid layout and the number is divisible by 1, 2, 3, 4 and 6, a plethora of options are now available to create designs that are responsive and adjust the content accordingly.
 
-![Grid layout divided](../img/grid-layout-divisible.svg)
+![Grid layout divided](../../img/grid-layout-divisible.svg)
 
 The layout is not limited to only divisions of 12. As long as the sum of columns used is less than or equal to 12, the user can create any kind of design. Similar to the bottom image.
 
-![Grid layout added](../img/grid-layout-added.svg)
+![Grid layout added](../../img/grid-layout-added.svg)
 
 
 ### Column offset
 
 The layout is not limited to only divisions of 12. As long as the sum of columns used is less than or equal to 12, the user can create any kind of design. Similar to the bottom image.
 
-![Grid offset](../img/grid-offset.svg)
+![Grid offset](../../img/grid-offset.svg)
 
 
 ## Nested grid
@@ -63,14 +63,14 @@ Nested grid is a grid that is put into containers that already has a grid in it.
 
 Nested grid is the basis of fluid layout in GEL i.e. Nested grid is the parent grid in a fluid layout.
 
-![Nested Grid](../img/nested-grid.svg)
+![Nested Grid](../../img/nested-grid.svg)
 
 
 ## Column gutters
 
 Gutters are the gap the are placed in between column in a grid. Gutters provide breathing space to the content ensuring the contents are withing a certain gap with each other. By default, all the columns in the grid has a gutter of 15px on the left and right meaning a 30px gutter in between each column of the grid.
 
-![Column gutter](../img/grid-column-gutters.svg)
+![Column gutter](../../img/grid-column-gutters.svg)
 
 
 # The benefits of responsive design:

@@ -31,6 +31,7 @@
   --ifm-menu-color: var(--gel-color-tertiary-white);
   --ifm-menu-color-active: var(--gel-color-secondary-teal);
   --ifm-footer-background-color: white;
+  --docusaurus-details-decoration-color: var(--gel-color-secondary-teal);
 }
 
 html[data-theme='dark'] {
@@ -59,13 +60,25 @@ code{
   border: 0;
 }
 
-.hero--primary{
-  --ifm-hero-background-color: #3C1053;
-}
+
 aside{
   background-color: var(--gel-color-primary-purple-700);
 }
 
+details{
+  summary{
+    font-family: var(--gel-font-family-black);
+    font-weight: var(--gel-font-weight-normal);
+  }
+  a{
+    color: var(--ifm-link-color);
+  }
+}
+
+
+.hero--primary{
+  --ifm-hero-background-color: #3C1053;
+}
 /* *****************
 Sidebar overrides 
 ******************/
@@ -147,4 +160,8 @@ Pager overrides
 
 .admonition h5 b{
   vertical-align: super;
+}
+
+.markdown a {
+  text-decoration: underline;
 }

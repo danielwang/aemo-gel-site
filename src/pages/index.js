@@ -81,7 +81,7 @@ const features = [
 function Role({imageUrl, title, url}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <a className={clsx('text--center', styles.role)} href={useBaseUrl('docs/intro/roles/'+ url)}>
+    <a className={clsx('text--center', styles.role)} href={useBaseUrl('docs/guides/roles/'+ url)}>
       {imgUrl && (
           <img className={styles.RoleImage} src={imgUrl} alt={title} />
       )}
@@ -127,7 +127,7 @@ function Home() {
                   'button button--secondary',
                   styles.cta,
                 )}
-                to={useBaseUrl('docs/intro/introduction')}>
+                to={useBaseUrl('docs/guides/introduction')}>
                 Get Started
               </Link>
             </span>
