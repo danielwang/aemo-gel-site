@@ -99,6 +99,20 @@ const FoundationStyle = styled.div`
     font-size: var(--gel-font-size-text-sm);
     position: relative;
     background-color: ${bg};
+    transition: 0.2s;
+    box-shadow: 0 0 8px #999;
+    backdrop-filter: blur(12px);
+
+    &:not(:first-child){
+      margin-left: -5rem;
+    }
+    &:hover,
+    &:focus-within{
+      opacity: 1;
+      ~ div{
+        transform: translateX(5rem);
+      } 
+    }
 `;
 
 const Imgstyle = styled.img`

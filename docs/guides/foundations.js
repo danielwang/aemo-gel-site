@@ -6,6 +6,7 @@ const FoundationStyle = styled.div`
     display: flex;
     border-radius: var(--gel-radius-md);
     overflow: auto;
+    padding: var(--gel-spacer-3);
 `;
 
 const Foundations = ({ children }) => {  
