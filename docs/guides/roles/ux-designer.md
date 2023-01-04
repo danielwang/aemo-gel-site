@@ -4,16 +4,16 @@ title: UX Designer
 custom_edit_url: null
 sidebar_position: 1
 ---
-
+import InternalLink from './../../_internalLink'
 import Foundation from '../foundation'
 import Foundations from '../foundations'
 
 >What do I need to know as a UX designer? Here are the resources to help designers onboarding! 
 
 ## Design Practice
-Read about DDC [Experience Design Practice](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/80380105/Experience+and+Design+E+D)
+Read about DDC <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/80380105/Experience+and+Design+E+D" label="Experience Design Practice" />
 
-The [Initiative Flow](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow) and how it aligns to the [HCD Framework](../hcd/hcd-intro)
+The <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow" label ="Initiative Flow" /> and how it aligns to the [HCD Framework](../hcd/hcd-intro)
 
 ## Product Design 
 
@@ -41,18 +41,18 @@ The GEL Design System provides the following brand and design foundations that s
 </Foundations>
 
 ### Using GEL Figma
-Learn how to use our [design system in Figma](https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1), from our UI Kit to the asset library itself.
+Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1" label="design system in Figma" />, from our UI Kit to the asset library itself.
 
 
 
 ## Tools
 
-- Figma, prototyping and usability testing
-- Figjam, a whiteboard to generate and present ideas, run workshops
+- Figma - prototyping and usability testing
+- Figjam - a whiteboard to generate and present ideas, run workshops
 - Microsoft Team, Video meeting
 
 ## Designer & Developer handoff
 
 ## See also
- - [UX Glossary](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary)
+ -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
  - [AEMO Branding](../../branding/logo)

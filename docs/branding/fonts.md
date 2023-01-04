@@ -5,12 +5,16 @@ sidebar_label: Fonts
 sidebar_position: 4
 custom_edit_url: null
 ---
+
+import InternalLink from './../_internalLink.js'
+
 >Typography is an essential part of the AEMO visual system. When used consistently, it unifies messaging and creates familiarity.
 
 Good typography not only differentiates a brand but also communicates the brand’s style, personality and tone of voice. It has a huge influence on brand perception and recognition. 
      
 Our default typeface has been chosen to maximise legibility across a number of font sizes and to ensure we have clear, consistent headings, paragraphs and form elements.
 
+Read more <InternalLink url="https://aemocloud.sharepoint.com/:f:/r/Brand%20%20Templates/Brand%20Guidelines?csf=1&web=1&e=4tZS2g" label="brand guideline on MO" />
 
 
 ## Primary font
