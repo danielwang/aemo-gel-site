@@ -4,7 +4,7 @@ title: Software Developer
 custom_edit_url: null
 sidebar_position: 6
 ---
-
+import InternalLink from './../../_internalLink'
 import Foundation from '../foundation'
 import Foundations from '../foundations'
 
@@ -40,4 +40,4 @@ Hi-fidelity UI mockups should be provided by UX designer
 [Primeflex](https://www.primefaces.org/primeflex/) PrimeFlex is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.
 
 ## See also
-[UX Glossary](https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary)
+ -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
