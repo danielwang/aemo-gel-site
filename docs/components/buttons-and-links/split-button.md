@@ -29,7 +29,7 @@ There are eight different vairants of split buttons available in GEL.
 ### When to use
 
 * Split buttons are to be used when an action needs to be a default action and other available actions can be organized inside the dropdown button.
-<Video filename="split-behaviour.mp4" />
+<Video filename="split-button-behaviour.mp4" />
 
 ### When not to use
 
