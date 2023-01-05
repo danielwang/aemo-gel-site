@@ -59,4 +59,11 @@ The following colors, also termed as fuel color in GEL and are restricted to dat
 
 ## Resource
 
-[Color contrast checker (WebAIM)](https://webaim.org/resources/contrastchecker/)
+- [Color contrast checker (WebAIM)](https://webaim.org/resources/contrastchecker/)
+
+
+## See also
+
+- [Design colour tokens](../design-tokens/color)
+
+- [AEMO Branding colour](../../branding/colours/colour-palette)
