@@ -7,6 +7,8 @@ sidebar_position: 1
 import InternalLink from './../../_internalLink'
 import Foundation from '../foundation'
 import Foundations from '../foundations'
+import Knowledge from '../knowledge'
+import KnowledgeContainer from '../knowledgeContainer'
 
 >What do I need to know as a UX designer? Here are the resources to help designers onboarding! 
 
@@ -40,10 +42,23 @@ The GEL Design System provides the following brand and design foundations that s
     <Foundation name="writing guideline" />
 </Foundations>
 
+
+
 ### Using GEL Figma
 Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1" label="design system in Figma" />, from our UI Kit to the asset library itself.
 
 
+## Knowledge
+
+In order to design the right things the right away, there are multiple resources that you can refer to. These knowledge are the basis to AEMO's culture and best place to find the right things.
+
+<KnowledgeContainer>
+    <Knowledge name="mo" />
+    <Knowledge name="DDC team" />
+    <Knowledge name="projects" />
+    <Knowledge name="getting support" />
+    <Knowledge name="examples" />
+</KnowledgeContainer>
 
 ## Tools
 
@@ -56,3 +71,5 @@ Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0w
 ## See also
  -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
  - [AEMO Branding](../../branding/logo)
+
+ 

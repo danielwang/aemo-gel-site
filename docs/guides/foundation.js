@@ -13,6 +13,7 @@ import tokens from "./assets/tokens.png";
 import writing from "./assets/writing.png";
 import branding from "./assets/branding.png";
 import utilities from "./assets/utilities.png";
+// import BgColors from "./bgcolors";
 
 
 
@@ -42,37 +43,37 @@ const Foundation = ({ name }) => {
       case "icons":
         url = useBaseUrl('docs/guides/foundations/icons');
         icon = icons;
-        text = (<>designed to communicate meaning and aid navigation.</>);
+        text = (<>Designed to communicate meaning and aid navigation.</>);
         bg = BgColors[3];
         break;
       case "library":
         url = useBaseUrl('docs/components/buttons-and-links/button');
         icon = library;
-        text = (<>Fonts to communicate our brand personality.</>);
+        text = (<>Components that create our product UI.</>);
         bg = BgColors[4];
         break;
       case "responsive":
         url = useBaseUrl('docs/guides/foundations/responsive');
         icon = responsive;
-        text = (<>ensuring that we can create a single solution and scale it to all devices and operating systems</>);
+        text = (<>Ensuring that we can create a single solution and scale it to all devices and operating systems</>);
         bg = BgColors[5];
         break;
       case "accessibility":
         url = useBaseUrl('docs/guides/foundations/accessibility');
         icon = accessibility;
-        text = (<>ensuring that our solutions consider the needs of all our digital customers </>);
+        text = (<>Ensuring that our solutions consider the needs of all our digital customers </>);
         bg = BgColors[6];
         break;
       case "design tokens":
           url = useBaseUrl('docs/guides/design-tokens/intro-dt');
           icon = tokens;
-          text = (<>visual values that construct and scale design across multiple platforms and devices</>);
+          text = (<>Visual values that construct and scale design across multiple platforms and devices</>);
           bg = BgColors[1];
           break;
       case "writing guideline":
         url = useBaseUrl('docs/guides/foundations/writing');
         icon = writing;
-        text = (<>visual values that construct and scale design across multiple platforms and devices</>);
+        text = (<>Visual values that construct and scale design across multiple platforms and devices</>);
         bg = BgColors[7];
         break;
       case "branding guidelines":
