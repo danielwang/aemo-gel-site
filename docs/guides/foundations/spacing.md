@@ -82,8 +82,8 @@ While scanning through the UI, user tend to look for order in the visual informa
 
 ![Order and hierarchy](assets/order-and-hierarchy.svg)
 
-## Design tokens
+## Additional resources
 
-See how the spacers are listed as [tokens here](../design-tokens/space.md).
+See how the spacers are listed as design tokens [here](../design-tokens/space.md).
 
 
