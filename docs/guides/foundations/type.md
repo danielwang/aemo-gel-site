@@ -73,3 +73,7 @@ Monospace fonts are used for data cells in a table. This enables the user to eas
 ### Demo
 
 ![Monospaced font demo](assets/text-demo-monospace.svg)
+
+## Additional resource
+
+Design tokens that correspond to font-family can be found [here](../design-tokens/fonts.md) and font size can be found [here](../design-tokens/font-size.md).
