@@ -26,34 +26,34 @@ Each spacing value is a multiple of the base unit and ranges from 0px to 64px al
 
 | Demo | Value | SCSS Variables | Visual |
 |---|---|---| --- |
-| 0x  | <ShowVar code={Token.Spacer0} /> | 0px | <Space spacer={Token.Spacer0} /> 
-| 1x  | <ShowVar code={Token.Spacer1} /> | 4px | <Space spacer={Token.Spacer1} /> 
-| 2x  | <ShowVar code={Token.Spacer2} /> | 8px | <Space spacer={Token.Spacer2} /> 
-| 4x  | <ShowVar code={Token.Spacer3} /> | 16px| <Space spacer={Token.Spacer3} /> 
-| 6x  | <ShowVar code={Token.Spacer4} /> | 24px| <Space spacer={Token.Spacer4} /> 
-| 8x  | <ShowVar code={Token.Spacer5} /> | 32px| <Space spacer={Token.Spacer5} /> 
-| 12x | <ShowVar code={Token.Spacer6} /> | 48px| <Space spacer={Token.Spacer6} /> 
-| 16x | <ShowVar code={Token.Spacer7} /> | 64px| <Space spacer={Token.Spacer7} /> 
+| 0x    | <ShowVar code={Token.Spacer0} /> | 0px | <Space spacer={Token.Spacer0} /> 
+| 1/4x  | <ShowVar code={Token.Spacer1} /> | 4px | <Space spacer={Token.Spacer1} /> 
+| 1/2x  | <ShowVar code={Token.Spacer2} /> | 8px | <Space spacer={Token.Spacer2} /> 
+| 1x    | <ShowVar code={Token.Spacer3} /> | 16px| <Space spacer={Token.Spacer3} /> 
+| 1.5x  | <ShowVar code={Token.Spacer4} /> | 24px| <Space spacer={Token.Spacer4} /> 
+| 2x    | <ShowVar code={Token.Spacer5} /> | 32px| <Space spacer={Token.Spacer5} /> 
+| 3x    | <ShowVar code={Token.Spacer6} /> | 48px| <Space spacer={Token.Spacer6} /> 
+| 4x    | <ShowVar code={Token.Spacer7} /> | 64px| <Space spacer={Token.Spacer7} /> 
 
 ## Standard spacing guidelines
 
 The templates come with the navbar, header and footer by default for any UI design. The following guidelines can help create a consistent UI across AEMO’s applications.
 
-###  0.5rem
+###  Spacer-2
 
-The 0.5rem calculated as **8px** or **Spacer-2** is for atomic level elements or siblings. These are the basic block that creates a component. Example would be spacing between checkboxes/radios.
+The spacer-2 calculated as **8px** or **0.5rem** is for atomic level elements or siblings. These are the basic block that creates a component. Example would be spacing between checkboxes/radios.
 
-### 1rem
+### Spacer-3
 
-The 1rem calculated as **16px** or **Spacer-3** is for component level contents between atoms and molecules in a related group. Example would be spacing between a content level header and its table or table and pagination.
+The Spacer-3 calculated as **16px** or **1rem** is for component level contents between atoms and molecules in a related group. Example would be spacing between a content level header and its table or table and pagination.
 
-### 1.5rem
+### Spacer-4
 
-The 1.5rem calculated as **24px** or **Spacer-4** is for organism level contents. This spacing is used between two blocks of data that provide different value to a UI ideally grouped under separate heading to provide context to each block.
+The Spacer-4 calculated as **24px** or **1.5rem** is for organism level contents. This spacing is used between two blocks of data that provide different value to a UI ideally grouped under separate heading to provide context to each block.
 
-### 2rem
+### Spacer-5
 
-The 2rem calculated as **32px** or **Spacer-5** is for landmarks. Since the template comes with these landmarks, the 2rem spacing can be used to separate the content from these landmarks.
+The Spacer-5 calculated as **32px** or **2rem** is for landmarks. Since the template comes with these landmarks, the 2rem spacing can be used to separate the content from these landmarks.
 
 ### Demo
 
@@ -82,8 +82,8 @@ While scanning through the UI, user tend to look for order in the visual informa
 
 ![Order and hierarchy](assets/order-and-hierarchy.svg)
 
-## Additional resources
+## See also
 
-See how the spacers are listed as design tokens [here](../design-tokens/space.md).
+- [Spacing tokens](../design-tokens/space.md)
 
 
