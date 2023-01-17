@@ -54,6 +54,9 @@ Century Gothic can also be used for emphasis in smaller applications such as sub
 
 <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0rRUHSl2uDzMfQC5aKh6YN%2FBrand-Styleguide%3Fnode-id%3D4907%253A1455%26t%3DUA4zLZlyOh7LcKXK-1" allowfullscreen></iframe>
 
+:::tip
+If Century Gothic is not available in Windows or Mac, installing Office 365 can install the font as well.
+:::
 
 :::warning
 Only to be used when Avenir is unavailable as the primary font.
