@@ -43,7 +43,7 @@ Refer to the following guidelines below when working with typography:
 - Keep text solid-filled and refrain from adding strokes to outline the type.
 
 
-## Fallback Font - Trebuchet MS
+## Fallback Font
 
 Trebuchet MS is one of the most web-safe font alongside Arial, Helvetica and Tahoma, designed by Microsoft in 1996. Commonly used for body of many websites, Trebuchet MS can be used as a solid alternative to a website’s sans-serif font.
 
@@ -59,21 +59,24 @@ As displayed in the video above, the shift from Trebuchet MS(Red) to Avenir(Blac
 
 :::info Use case
 
-font family: "Avenir LT Std", "Trebuchet MS", sans-serif;
+font family: "Avenir LT Std", "Century Gothic", "Trebuchet MS", sans-serif;
 
 :::
 
 
-## Monospace font - Courier
+## Monospace font
 
 Courier is a monospace serif font that closely resembles typewriter text. Widely used in emails, Courier is available in both Mac and Windows and web based application as one of the most web safe fonts.
 
-Monospace fonts are used for data cells in a table. This enables the user to easily see the position(decimal place, tens and thousands)of the number without having to spend considerable time whilst scanning the data cells.
+Monospace fonts are used for data ideally numbers. This enables the user to easily see the position(decimal place, tens and thousands)of the number without having to spend considerable time whilst scanning the data cells.
 
 ### Demo
 
 ![Monospaced font demo](assets/text-demo-monospace.svg)
 
-## Additional resource
 
-Design tokens that correspond to font-family can be found [here](../design-tokens/fonts.md) and font size can be found [here](../design-tokens/font-size.md).
+## See also
+
+- [Font family](../design-tokens/fonts.md)
+- [Font size](../design-tokens/font-size.md)
+- [Fonts branding guidelines](../../branding/fonts.md)
