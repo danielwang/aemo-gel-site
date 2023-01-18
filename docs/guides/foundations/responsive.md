@@ -17,7 +17,7 @@ Best practice is to start with a mobile-first approach, ensuring all relevant co
 ## The grid
 In order to design for a variety of screen sizes the use of a grid system is advised. A responsive layout grid adapts to screen size and orientation, ensuring a consistency across layouts.
 
-The grid system in GEL is leveraged from Boostrap. While most breakpoints remain the same, the breakpoints in GEL for grids differ in higher resolution catering to larger screens. These grids are primary building blocks to [templates](../components/templates.md) available in GEL.
+The grid system in GEL is leveraged from Boostrap. While most breakpoints remain the same, the breakpoints in GEL for grids differ in higher resolution catering to larger screens. These grids are primary building blocks to [templates](../../components/templates.md) available in GEL.
 
 |                               | XS        | SM        | MD        | LG        | XL        | XXL(Default)  | XXXL      |
 | ---                           | ---       | ---       | ---       | ---       | ---       | ---           | ---       |
@@ -34,7 +34,7 @@ The **fluid** layout does not impose any width restrictions to page containers, 
 
 The **fixed** layout applies the ideal maximum width to page containers according to the elements being displayed so they can be experienced using the most appropriate width.
 
-The grids are actively being used in the [template](../components/templates.md) component in Figma.
+The grids are actively being used in the [template](../../components/templates.md) component in Figma.
 
 
 ## Columns

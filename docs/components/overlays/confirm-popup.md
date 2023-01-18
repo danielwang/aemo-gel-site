@@ -36,7 +36,7 @@ There are 2 different confirm popups: Default and Danger with 2 different varian
 ### When not to use
 
 * If the user requires uninterrupted attention and action must be taken before moving forward, consider using [modal](modal.md) instead.
-* If the CTA doesn't require confirmation of any kind and just displaying additional actions, consider using other appropriate components such as [menu](tiered-menu)instead.
+* If the CTA doesn't require confirmation of any kind and just displaying additional actions, consider using other appropriate components such as [menu](../menu/tiered-menu.md)instead.
 
 ### Considerations
 
