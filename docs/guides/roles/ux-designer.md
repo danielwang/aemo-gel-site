@@ -17,9 +17,16 @@ The <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/52858
 
 ## Product Design 
 
-### Design the right thing
- - Explore customer problems to solve and opportunities to add value to our users
- - Human-Centred Design, Design Thinking process
+### Design the "right" thing
+
+The main goal of UX design research is to inform the design process from the perspective of the end user. Explore customer problems to solve and opportunities to add value to our users.
+
+
+ - Human-Centred Design, [Design Thinking process](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=46%3A125&t=RqKOuZu9QdID4muS-1)
+ - [Empathy Map](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1654&t=RqKOuZu9QdID4muS-1)
+ - [Persona template](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1733&t=RqKOuZu9QdID4muS-1)
+ - [Job To Be Done](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=105%3A136&t=RqKOuZu9QdID4muS-1)
+ - [Problem Statement template](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=105%3A136&t=RqKOuZu9QdID4muS-1)
 
 
 ### Design the thing right
@@ -51,7 +58,6 @@ Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0w
 - Figjam - a whiteboard to generate and present ideas, run workshops
 - Microsoft Team, Video meeting
 
-## Designer & Developer handoff
 
 ## See also
  -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
