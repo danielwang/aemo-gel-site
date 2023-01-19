@@ -88,6 +88,12 @@ const Foundation = ({ name }) => {
         text = (<>Style classes for commonly used CSS properties</>);
         bg = BgColors[2];
         break;
+      case "design principles":
+        url = useBaseUrl('docs/guides/hcd/hcd-intro');
+        icon = utilities;
+        text = (<>Guide your rationales using our fundamental values and principles</>);
+        bg = BgColors[2];
+        break;
     }
 
 const FoundationStyle = styled.div`
