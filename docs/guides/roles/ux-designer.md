@@ -7,8 +7,6 @@ sidebar_position: 1
 import InternalLink from './../../_internalLink'
 import Foundation from '../foundation'
 import Foundations from '../foundations'
-import Knowledge from '../knowledge'
-import KnowledgeContainer from '../knowledgeContainer'
 
 >What do I need to know as a UX designer? Here are the resources to help designers onboarding! 
 
