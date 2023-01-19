@@ -22,9 +22,6 @@ The <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/52858
 The main goal of UX design research is to inform the design process from the perspective of the end user. Explore customer problems to solve and opportunities to add value to our users.
 
  - Human-Centred Design, [Design Thinking process](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=46%3A125&t=RqKOuZu9QdID4muS-1)
-    - Empathise: Understand the needs, wants and pain points of the users by conducting research, user interviews, and observing users in their natural environment
-    - Define: Clearly define the problem statement and user needs by synthesising insights from research.
-    - Ideate: Generate a wide variety of ideas and solutions to the problem, encourage divergent thinking and collaboration
  - [Empathy Map](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1654&t=RqKOuZu9QdID4muS-1)
  - [Persona template](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1733&t=RqKOuZu9QdID4muS-1)
  - [Job To Be Done](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=105%3A136&t=RqKOuZu9QdID4muS-1)
@@ -71,17 +68,6 @@ The prototyping phase of the design process is time consuming. Bring your ideas 
 - Figjam - a whiteboard to generate and present ideas, run workshops
 - Microsoft Team, Video meeting
 
-
-## Additional resources
-
-- Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1" label="design system in Figma" />, from our UI Kit to the asset library itself.
-- In addition, find our [starter kit](#) that can help you bring to speed for your projects.
-- Our <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1712783363/Technical+Writer+Standards" label="Technical Writer Standards" /> guides you on creating standard copy while creating design.
-
-
-## Designer-developer handoff process
-
-Know about the importance of [designer-developer handoff](#).
 
 ## See also
  -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
