@@ -61,7 +61,6 @@ The prototyping phase of the design process is time consuming. Bring your ideas 
     <Foundation name="design tokens" />
     <Foundation name="library" />
     <Foundation name="figma" />
-    <Foundation name="writing guideline" />
 </Foundations>
 
 
@@ -75,7 +74,7 @@ The prototyping phase of the design process is time consuming. Bring your ideas 
 ## Additional resources
 
 - Learn how to use our <InternalLink url="https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=0%3A1&t=wWnl5yDb3WDbwvJJ-1" label="design system in Figma" />, from our UI Kit to the asset library itself.
-- In addition, find our [starter kit](#) that can help you bring to speed for your projects.
+- In addition, find our [starter kit](#)`TODO` that can help you bring to speed for your projects.
 - Our <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1712783363/Technical+Writer+Standards" label="Technical Writer Standards" /> guides you on creating standard copy while creating design.
 
 
