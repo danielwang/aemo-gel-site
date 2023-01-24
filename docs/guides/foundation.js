@@ -13,6 +13,7 @@ import tokens from "./assets/tokens.png";
 import writing from "./assets/writing.png";
 import branding from "./assets/branding.png";
 import utilities from "./assets/utilities.png";
+import illustration from "./assets/illustration.png"
 
 
 
@@ -92,6 +93,12 @@ const Foundation = ({ name }) => {
         icon = utilities;
         text = (<>Guide your rationales using our fundamental values and principles</>);
         bg = BgColors[2];
+        break;
+      case "illustration":
+        url = useBaseUrl('docs/guides/foundations/icons');
+        icon = illustration;
+        text = (<>Spot illustrated graphics that add visual appeal</>);
+        bg = BgColors[1];
         break;
     }
 

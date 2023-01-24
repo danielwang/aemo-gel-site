@@ -9,7 +9,7 @@ import Foundations from '../foundations'
 import Foundation from '../foundation'
 
 
-> Graphic designers creates graphical content for either AEMO website or the product produced by AEMO project teams. GEL system can provide elements that are required for the creation of these assets by using the color palette, typography and design components.
+> Create contents for AEMO websites or products for AEMO projects using elements that are required for the creation of these assets by using the color palette, typography and design components
 
 
 ## Design foundations
@@ -30,6 +30,5 @@ Designing graphical elements is different than creating UI for product. However,
 <Foundations>
     <Foundation name="design tokens" />
     <Foundation name="colours" />
-    <Foundation name="library" />
     <Foundation name="illustration" />
 </Foundations>
