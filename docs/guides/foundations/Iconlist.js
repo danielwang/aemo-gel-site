@@ -43,7 +43,7 @@ function IconList() {
         link.innerHTML = "Download SVG";
 
         // Add the link to the page
-        document.body.appendChild(link);
+        // document.body.appendChild(link);
 
         // Click the link to start the download
         link.click();
@@ -72,19 +72,18 @@ function IconList() {
 
 // ************** Styling for all the items in the page *****************
 const SearchContainer = styled.input`
-width: 100%; 
-padding: .25rem;
+width: 50%; 
+padding: .5rem;
+margin-bottom: 1.5rem;
 `
 
 const IconlistContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
-gap: 1rem; //add token here
 `
 
 const IconContainer = styled.button`
 width: 8rem;
-height: 10rem;
 position: relative;
 cursor: pointer;
 display: flex;
@@ -103,18 +102,14 @@ border-radius: 8px; //add token here
 `;
 
 const IconStyle = styled.i`
-font-size: 2rem;
+font-size: 2.5rem;
 color: #6B778C; //replace with token
-position: absolute;
-left: 50%;
-transform: translate(-50%, -50%);
-top: 30%;
+display:block;
+margin-top:1rem;
 `;
 
-const IconName = styled.p`
-position: absolute;
-width: 70%;
-top: 60%;
+const IconName = styled.span`
+margin:1rem;
 `;
 
 
