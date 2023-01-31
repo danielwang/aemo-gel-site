@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import 'gel-icon/style.css';
-import selection from 'gel-icon/selection.json';
+import '@danielwang/aemo-gel-icon/style.css';
+import selection from '@danielwang/aemo-gel-icon/selection.json';
 
 
 function IconList() {

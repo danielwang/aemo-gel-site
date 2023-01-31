@@ -12,7 +12,8 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@danielwang/aemo-design-tokens": "^1.0.0",
+    "@danielwang/aemo-design-tokens": "^1.3.0",
+    "@danielwang/aemo-gel-icon": "^1.0.0",
     "@docusaurus/core": "^2.0.0-beta.15",
     "@docusaurus/plugin-content-docs": "^2.0.0-beta.15",
     "@docusaurus/preset-classic": "^2.0.0-beta.15",

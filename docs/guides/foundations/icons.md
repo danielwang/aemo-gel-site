@@ -33,13 +33,13 @@ If there is a need for an icon that does not exist within the library, contact t
 Run the following command to donwlaod it to your project.
 
 ```bash
-npm install aemo-gel-icons --save 
+npm install aemo-gel-icon --save 
 ```
 
 Then import the library
 
 ```js
-import 'gel-icon/style.css'
+import 'aemo-gel-icon/style.css'
 ```
 
 ### Use font icons by coding in HTML
