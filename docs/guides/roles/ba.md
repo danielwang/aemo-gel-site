@@ -10,15 +10,43 @@ import InternalLink from './../../_internalLink'
 import Foundation from '../foundation'
 import Foundations from '../foundations'
 
->What do I need to know as a Business Analyst? How does the GEL help my work?
+> The AEMO GEL tool can be utilised by Business Analysts to adopt a consistent methodology for creating a user-friendly experience. Even if you don't use the component kits, our system enables teams to select and use only what you need.
+
+## Design Practice
+Read about DDC <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/80380105/Experience+and+Design+E+D" label="Experience Design Practice" />
+
+The <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/528580741/Initiative+Flow" label ="Initiative Flow" /> and how it aligns to the [HCD Framework](../hcd/hcd-intro)
+
+## Product Design 
+
+### Design the "right" thing
+
+The main goal of UX design research is to inform the design process from the perspective of the end user. Explore customer problems to solve and opportunities to add value to our users.
+
+ - Human-Centred Design, [Design Thinking process](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=46%3A125&t=RqKOuZu9QdID4muS-1)
+ - [Empathy Map](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1654&t=RqKOuZu9QdID4muS-1)
+ - [Persona template](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=204%3A1733&t=RqKOuZu9QdID4muS-1)
+ - [Job To Be Done](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=105%3A136&t=RqKOuZu9QdID4muS-1)
+ - [Problem Statement template](https://www.figma.com/file/thlFIi4nMTEh7LmYLNPWGC/DesignOps?node-id=105%3A136&t=RqKOuZu9QdID4muS-1)
+
+
+## Design foundations
+
+By having a solid understanding of the design foundations at AEMO, you can approach your work, allowing you to make well-informed decisions at every stage of the design and decision-making process.
 
 <Foundations>
-    <Foundation name="library" />
+    <Foundation name="design principles" />
     <Foundation name="colours" />
+    <Foundation name="typography" />
     <Foundation name="icons" />
     <Foundation name="responsive" />
-    <Foundation name="writing guideline" />
+    <Foundation name="accessibility" />
 </Foundations>
 
-## See also
- -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
+
+## Start ideating, brainstorming and workshopping
+
+Identify and assess potential business opportunities by running various workshops with the stakeholders using the toolkits catered to do so efficiently.
+
+- Find our [starter kit](#)`TODO` that can help you bring to speed for your projects.
+- [UX templates](#)`TODO` allows you to ideate, brainstorm and run workshops.
