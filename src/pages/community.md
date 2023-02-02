@@ -28,9 +28,15 @@ The primary goal of this practice is to establish a highly efficient design proc
 ### Design Tools
 The practice also determines what tools design teams need to work efficiently. They standardize the tooling and systems used, as well as introduce new tools and make sure designers adopt them.
 
-- Design research tools: HCD canvas, templates. analytics tool, usability testings
+#### UX research: 
+- HCD canvas, templates
+- Analytics tool 
+- Usability testings
+- Workshop 
+
+#### UI design 
 - Design framework and language: GEL - AEMO's design system
-- Design tools: Figma, Adobe etc
+- Figma (Design and prototype)
 
 ### People & Culture 
 Invest in creating a design culture and promoting the culture within AEMO. The process of building a design culture includes the following areas:
