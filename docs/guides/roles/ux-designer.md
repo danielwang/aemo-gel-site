@@ -83,6 +83,7 @@ The prototyping phase of the design process is time consuming. Bring your ideas 
 Know about the importance of [designer-developer handoff](#).
 
 ## See also
+ - [Industry terminology](https://aemo.com.au/learn/industry-terminology)
  -  <InternalLink url="https://aemocdr.atlassian.net/wiki/spaces/DDC/pages/1605632412/UX+terms+Glossary" label ="UX Glossary" />
  - [AEMO Branding](../../branding/logo)
 
