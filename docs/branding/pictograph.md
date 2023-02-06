@@ -21,6 +21,12 @@ The suite of pictograph has been carefully created to sit cohesively alongside o
 
 <iframe width="100%" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0rRUHSl2uDzMfQC5aKh6YN%2FBrand-Styleguide%3Fnode-id%3D5561%253A573%26t%3DYEs0nGR3VJCJY9ee-1" allowfullscreen></iframe>
 
+
+## Illustrations
+
+<iframe width="100%" height="2000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0rRUHSl2uDzMfQC5aKh6YN%2FBrand-Styleguide%3Fnode-id%3D5827%253A2744%26t%3DJiX6NYvh4T2KuHjC-1" allowfullscreen></iframe>
+
+
 :::tip
 If there is a need for an pictograph that does not exist within the library, contact the **Communications and Corporate Affairs team** to inquire about creating custom icons.
 :::
