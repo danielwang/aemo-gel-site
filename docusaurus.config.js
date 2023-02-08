@@ -50,6 +50,9 @@ module.exports = {
         // },
       ],
     },
+    colorMode: {
+      disableSwitch: true,
+    },
     docs: { 
       sidebar: {
         autoCollapseCategories: false, 
