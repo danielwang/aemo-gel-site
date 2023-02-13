@@ -2,51 +2,65 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import '@danielwang/aemo-gel-icon/style.css';
 import selection from '@danielwang/aemo-gel-icon/selection.json';
-
+import { SystemIconList } from './systemIconList';
 
 function IconList() {
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredIcons, setFilteredIcons] = useState(selection.icons);
+  const [iconPack, setIconPack] = useState(selection.icons);
+
+
+  // a fair bit happening here
+  // categorizing the icon list into two different variables so that web icon and system icons are different
+  // checks if the icon is in SystemIconList array to segregate the data
+  // finally sorts out the data alphabetically
+  const webIconPack = iconPack.filter(icon => !SystemIconList.includes(icon.properties.name)).sort((a, b) => a.properties.name.localeCompare(b.properties.name));
+  const systemIconPack = iconPack.filter(icon => SystemIconList.includes(icon.properties.name)).sort((a, b) => a.properties.name.localeCompare(b.properties.name));;
+
+  const [webIcons, setWebIcons] = useState(webIconPack);
+  const [systemIcons, setSystemIcons] = useState(systemIconPack);
 
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
     if(event.target.value === ''){ //this makes sure that the current value is checked. previously searchTerm would still hold a value so clearing the search did not show the full icon list
-      setFilteredIcons(selection.icons);
+      // sets to default list of filtered icons that is saved when the data first triggers
+      setWebIcons(webIconPack);
+      setSystemIcons(systemIconPack);
     }else{
-      setFilteredIcons(
-        selection.icons.filter((icon) => icon.properties.name.toLowerCase().includes(searchTerm.toLowerCase()))
+      // filtering both icon pack 
+      setSystemIcons(
+        systemIconPack.filter((icon) => icon.properties.name.toLowerCase().includes(searchTerm.toLowerCase()))
+      );
+      setWebIcons(
+        webIconPack.filter((icon) => icon.properties.name.toLowerCase().includes(searchTerm.toLowerCase()))
       );
     }
   };
 
 
   const handleDownload = (icon) => {
-        // Create the SVG element
-        console.log(icon.icon.paths);
-        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-        
-        // Create path elements and add to SVG
-        icon.icon.paths.forEach(iconPath => {
-          const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-          path.setAttribute("d", iconPath);
-          path.setAttribute("fill", "rgb(107, 119, 140");
-          svg.appendChild(path);
-        });
+    // Create the SVG element
+    console.log(icon.icon.paths);
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+    
+    // Create path elements and add to SVG
+    icon.icon.paths.forEach(iconPath => {
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", iconPath);
+      path.setAttribute("fill", "rgb(107, 119, 140");
+      svg.appendChild(path);
+    });
 
-        // Create a download link
-        const link = document.createElement("a");
-        link.setAttribute("href", "data:image/svg+xml;utf8," + svg.outerHTML);
-        link.setAttribute("download", icon.properties.name + ".svg");
-        link.innerHTML = "Download SVG";
+    // Create a download link
+    const link = document.createElement("a");
+    link.setAttribute("href", "data:image/svg+xml;utf8," + svg.outerHTML);
+    link.setAttribute("download", icon.properties.name + ".svg");
+    link.innerHTML = "Download SVG";
 
-        // Add the link to the page
-        // document.body.appendChild(link);
-
-        // Click the link to start the download
-        link.click();
+    // Click the link to start the download
+    link.click();
     }
 
   return (
@@ -55,9 +69,20 @@ function IconList() {
       <SearchContainer type="text" placeholder="Search icons..." onChange={handleSearch} value={searchTerm}/>
 
       {/************************  The following is to be done with the included json file ***************************/}
-
+      <h2>System Icons</h2>
       <IconlistContainer>
-        {filteredIcons.map((icon) => (
+        {systemIcons.map((icon) => (
+            <IconContainer key={icon.properties.name} onClick={() => handleDownload(icon)}>
+              <IconStyle className={"pi pi-" + icon.properties.name}>
+              </IconStyle>
+              <IconName>{icon.properties.name}</IconName>
+            </IconContainer>
+          ))}
+      </IconlistContainer>
+
+      <h2>Web Icons</h2>
+      <IconlistContainer>
+        {webIcons.map((icon) => (
             <IconContainer key={icon.properties.name} onClick={() => handleDownload(icon)}>
               <IconStyle className={"pi pi-" + icon.properties.name}>
               </IconStyle>
