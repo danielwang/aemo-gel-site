@@ -69,7 +69,7 @@ function IconList() {
       <SearchContainer type="text" placeholder="Search icons..." onChange={handleSearch} value={searchTerm}/>
 
       {/************************  The following is to be done with the included json file ***************************/}
-      <h2>System Icons</h2>
+      <h2>Industry Icons</h2>
       <IconlistContainer>
         {systemIcons.map((icon) => (
             <IconContainer key={icon.properties.name} onClick={() => handleDownload(icon)}>
@@ -80,7 +80,7 @@ function IconList() {
           ))}
       </IconlistContainer>
 
-      <h2>Web Icons</h2>
+      <h2>General Icons</h2>
       <IconlistContainer>
         {webIcons.map((icon) => (
             <IconContainer key={icon.properties.name} onClick={() => handleDownload(icon)}>

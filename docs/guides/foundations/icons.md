@@ -9,20 +9,18 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-> A library of icons has been curated for AEMO. The suite of icons has been carefully created to sit cohesively alongside other brand elements and forms the basis of many of the brand’s graphic illustrations and elements.
+> The GEL icon library is a comprehensive collection of symbols and graphical elements used to create a consistent and recognizable visual language across various digital platforms. 
 
+It is an essential tool for ensuring brand consistency and improving user experience, as it provides designers and developers with a standardized set of icons to use in their designs.
 
-Icons can be used to represent abstract concepts or physical objects. Paired with type, icons can help tell many different stories and add visual interest to reports, documents and presentations.
+The icon library should also be comprehensive, covering a wide range of concepts and functions, from basic system icons to more complex and specialized icons for AEMO's business and energy industry. This makes it easier for designers to create interfaces that are intuitive and user-friendly, without having to create new icons from scratch.
 
-All icons have been created in three colour versions:
+Having a well-designed icon library is essential for any design system, as it provides a foundation for building cohesive and recognizable digital products. It can help save time and resources, while also improving the overall quality of the user experience
 
-1. Colour 
-2. Black
-3. Reverse
+:::tip
+If there is a need for an icon that does not exist within the library, contact the <a href="/community">DDC Design team</a> to inquire about creating new icons.
+:::
 
-A sample selection of our icon library is shown here.
-
-If there is a need for an icon that does not exist within the library, contact the Communications and Corporate Affairs team to inquire about creating custom icons.
 <Tabs>
 <TabItem value="banana" label="Library" default>
     <Iconlist />
