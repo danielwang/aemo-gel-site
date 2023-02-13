@@ -129,8 +129,12 @@ Sidebar overrides
 /* *****************
 Main overrides 
 ******************/
+main{
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
 
-aside, main{
+aside{
   padding-top: 2rem;
 }
 
