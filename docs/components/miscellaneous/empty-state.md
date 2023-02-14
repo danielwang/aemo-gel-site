@@ -1,6 +1,6 @@
 ---
 id: empty-state
-title: Empty State and Error Illustration 
+title: Empty State and Error State 
 custom_edit_url: null
 ---
 
@@ -9,6 +9,13 @@ import AdmonitionExt from '../admonitionExt'
 > Empty and error states in an app occur when there is either no data to display or when the user encounters an error. Despite being challenging, these situations present excellent opportunities to communicate what the user would see with data and offer helpful advice on what to do next.
 
 
+
+
+## Page level states
+
+Page level illustrations are when there are no data to be displayed in the entire page or there has been a service error that restricts the user from successfully applying an action. Page level illustrations are categorized into two different categories.
+* Empty state
+* Error state
 
 <!-- *************** Empty state section *************** -->
 
@@ -55,7 +62,7 @@ An empty state can occur for following reasons:
 
 <!-- *************** Error Illustration section *************** -->
 
-## Error illustration
+## Error state
 
 Error illustration are empty states that enable us to manage errors when the user hits a roadblock. With error management illustrations, it provides user to recognize, diagnose and recover from error states. Guiding them with specific action item allows user to take next step diligently.
 
@@ -84,9 +91,16 @@ Error illustration are empty states that enable us to manage errors when the use
 ![Permission](img/permission.svg)
 
 
+## Container level states
+
+Container level empty or error states are when some parts of the product fails to load. In such scenarios, displaying basic empty or error state on specific containers allows user to still use the app but understand that an error has occured in a specific area only. Ensure that the message is relevant to the scenario and consize for the user. 
+
+![Container level empty states types](img/spot-illustration-types.svg)
+
+
 ## Guidance
 
-### Page level illustrations
+### Page level states
 
 The following depicts the use case for error states. The entire screen is blank and corresponding error state is displayed. The action item guides user with the necessary steps to proceed further.
 
@@ -97,7 +111,7 @@ Consider the following when using the empty state and error state illustrations.
 ![Page level illustration](img/page-level-illustration.svg)
 
 
-### Multiple empty states
+### Container level states
 
 Using the default illustrations in multiple places only distracts the user from what needs to be done next. Use a basic empty state in such scenarios.
 
@@ -105,7 +119,7 @@ Consider the following when using multiple state
 * Use spot illustrations that is relatable to the context to go with text and action item
 * Use a secondary button sparingly to reduce busy UI filled with primary button
 
-![Multiple empty states](img/multiple-illustration.svg )
+![Container level empty states usage](img/spot-illustrations.svg)
 
 
 ## Designer assets
