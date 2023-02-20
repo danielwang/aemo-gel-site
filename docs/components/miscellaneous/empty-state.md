@@ -11,7 +11,6 @@ import AdmonitionExt from '../admonitionExt'
 The empty state tells user what it is for and why they are seeing it. Effective empty states also tells user what to do next. The illustration that sits with an empty state informs the system state to the user. 
 
 An empty state can occur for following reasons:
-
 * There is no data for the user to see.
 * A feature has not been configured yet. 
 
@@ -26,14 +25,14 @@ An empty state can be dispalyed in two different levels.
 
 Page level empty state occurs when a user first lands on a new page, or after they have deleted, or removed all the content from a page. The primary purpose of this empty state is to guide or suggest the user on what actions can be taken to populate the page.
 
-![Page level illustration](img/page-level-empty-state.svg)
+![Page level empty state](img/page-level-empty-state.svg)
 
 
 ### Container level
 
 Using the default illustrations in multiple places only distracts the user from what needs to be done next. Use a container level empty state in such scenarios.
 
-![Container level empty states types](img/container-level-empty-state.svg)
+![Container level empty states](img/container-level-empty-state.svg)
 
 
 ## Variants
@@ -72,10 +71,9 @@ Page level empty states used are when there are no data to be displayed in the e
 
 ### Container level
 
-![Container level empty states usage](img/container-level-state.svg)
+**When to use:** When there are empty states on a container level 
 
-
-Container level empty or error states are when some parts of the product fails to load. In such scenarios, displaying basic empty or error state on specific containers allows user to still use the app but understand that an error has occured in a specific area only. Ensure that the message is relevant to the scenario and consize for the user. 
+![Container level empty states usage](img/container-level-empty-state-variant.svg)
 
 
 ## Guidance
