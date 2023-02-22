@@ -32,19 +32,13 @@ The main goal of UX design research is to inform the design process from the per
 
 
 ### Design the thing right
-Use common tools to ensure individual projects across the organisation deliver on brand and connected customer experiences optimised for the digital channel
 
-- Prototype: Create wireframe, mockup or workable prototype to help test and validate the ideated solution
-- Test: Conduct user testing to gather feedback on the solution, and use this feedback to iterate and improve upon the solution.
-- Implement: Implement the validated solution created
-
-
-## Design foundations
+#### Design foundations
 
 By having a solid understanding of the design foundations at AEMO, you can approach your work, allowing you to make well-informed decisions at every stage of the design and decision-making process.
 
 <Foundations>
-    <Foundation name="design principles" />
+    <Foundation name="design tokens" />
     <Foundation name="colours" />
     <Foundation name="typography" />
     <Foundation name="icons" />
@@ -53,12 +47,11 @@ By having a solid understanding of the design foundations at AEMO, you can appro
 </Foundations>
 
 
-## Start designing
+#### Start designing
 
 The prototyping phase of the design process is time consuming. Bring your ideas and low-fidelity wireframes to high-fidelity prototypes faster with ready to use app templates and a library of components you can customize.
 
 <Foundations>
-    <Foundation name="design tokens" />
     <Foundation name="library" />
     <Foundation name="figma" />
 </Foundations>
