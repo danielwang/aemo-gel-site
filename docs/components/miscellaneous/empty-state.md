@@ -1,111 +1,113 @@
 ---
 id: empty-state
-title: Empty State and Error Illustration 
+title: Empty State 
 custom_edit_url: null
 ---
 
-import AdmonitionExt from '../admonitionExt'
+import AdmonitionExt from '../admonitionExt';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-> Empty and error states in an app occur when there is either no data to display or when the user encounters an error. Despite being challenging, these situations present excellent opportunities to communicate what the user would see with data and offer helpful advice on what to do next.
+> Empty states in an app occur when there is no data to be displayed to the user. Despite being challenging, these situations present excellent opportunities to communicate what the user would see with data and offer helpful advice on what to do next.
 
-
-
-<!-- *************** Empty state section *************** -->
-
-## Empty state
-
-Empty states are used when an element does not have content to display to the user. The empty state tells user what it is for and why they are seeing it. Effective empty states also tells user what to do next. The illustration that sits with an empty state informs the system state to the user. 
+The empty state tells user what it is for and why they are seeing it. Effective empty states also tells user what to do next. The illustration that sits with an empty state informs the system state to the user. 
 
 An empty state can occur for following reasons:
-
 * There is no data for the user to see.
 * A feature has not been configured yet. 
 
-### Search
+
+## Types
+
+An empty state can be dispalyed in two different levels.
+* Page level
+* Container level
+
+### Page level
+
+Page level empty state occurs when a user first lands on a new page, or after they have deleted, or removed all the content from a page. The primary purpose of this empty state is to guide or suggest the user on what actions can be taken to populate the page.
+
+![Page level empty state](img/page-level-empty-state.svg)
+
+
+### Container level
+
+Using the default illustrations in multiple places only distracts the user from what needs to be done next. Use a container level empty state in such scenarios.
+
+![Container level empty states](img/container-level-empty-state.svg)
+
+
+## Variants
+
+Page level empty states used are when there are no data to be displayed in the entire page. Few scenarios to use such empty states are when the page is blank, or configuration is required.
+
+
+<Tabs>
+<TabItem value="empty-search" label="Search" default>
 
 **When to use:** When there are no search data present.
-
 ![Empty search](img/empty-search.svg)
 
-### Dashboard
+</TabItem>
+
+<TabItem value="empty-dashboard" label="Dashboard">
 
 **When to use:** When the products dashboard is empty.
-
 ![Empty dashboard](img/empty-dash.svg)
 
-### Table
+</TabItem>
+
+<TabItem value="empty-table" label="Table">
 
 **When to use:** When there is  either no table or no data in a table
-
 ![Empty table](img/empty-table.svg)
 
-### Chart
+</TabItem>
+
+<TabItem value="empty-chart" label="Chart">
 
 **When to use:** When there are no charts to be displayed in infographics
-
 ![Empty charts](img/empty-chart.svg)
 
-### Notification
+</TabItem>
+
+<TabItem value="empty-notification" label="Notification">
 
 **When to use:** When there are no mail or notification
-
 ![Empty notification](img/empty-notification.svg)
 
+</TabItem>
 
+<TabItem value="container-level" label="Container level">
 
-<!-- *************** Error Illustration section *************** -->
+**When to use:** When there are empty states on a container level 
+![Container level empty states usage](img/container-level-empty-state-variant.svg)
 
-## Error illustration
-
-Error illustration are empty states that enable us to manage errors when the user hits a roadblock. With error management illustrations, it provides user to recognize, diagnose and recover from error states. Guiding them with specific action item allows user to take next step diligently.
-
-### 404
-
-**When to use:** When the page does not exist or has been replaced.
-
-![404 error](img/404.svg)
-
-### 500
-
-**When to use:** When there has been a general problem with the server.
-
-![500 error](img/500.svg)
-
-### Maintenance
-
-**When to use:** To let the user know that a planned maintenance is in progress.
-
-![Maintenance](img/maintenance.svg)
-
-### Permission
-
-**When to use:** When you do not have access to a file or link.
-
-![Permission](img/permission.svg)
-
+</TabItem>
+</Tabs>
 
 ## Guidance
 
-### Page level illustrations
+### When to use
 
-The following depicts the use case for error states. The entire screen is blank and corresponding error state is displayed. The action item guides user with the necessary steps to proceed further.
+* Use an empty state when no content exists within a configured feature.
+* The message used should be consize informing the use why the state is being diaplayed.
+* Use a CTA button if an action can be performed within the page. This provides user the opportunity to act on how to reconsile the empty state.
 
-Consider the following when using the empty state and error state illustrations.
-* Use a navigational link if the user is being navigated away from the page.
-* Use a CTA button if an action can be performed within the page.
+#### Container level
+* Use spot illustrations that is relatable to the context to go with text and action item.
+* The spot illustration should be centered in the blob provided with horizontal padding of spacer-4.
 
-![Page level illustration](img/page-level-illustration.svg)
+![Spot illustration specification](img/spot-illustration-specification.svg)
+* Use a secondary button sparingly to a reduce busy UI populated with primary button.
+* Depending upon the availability of the space and number of empty states that might occur, following variations of container level empty state can be used.
 
+| ![Container level ](img/container-level.svg) | ![Container level ](img/container-level-no-spot.svg)  |
+| --- | --- |
+| Container level with spot and action item | Container level without spot illustration |
+| ![Container level ](img/container-level-w-icon.svg) | ![Container level ](img/container-level-no-spot-no-cta.svg)
+| Container level with icon and text | Container level with text only|
 
-### Multiple empty states
-
-Using the default illustrations in multiple places only distracts the user from what needs to be done next. Use a basic empty state in such scenarios.
-
-Consider the following when using multiple state
-* Use spot illustrations that is relatable to the context to go with text and action item
-* Use a secondary button sparingly to reduce busy UI filled with primary button
-
-![Multiple empty states](img/multiple-illustration.svg )
 
 
 ## Designer assets
