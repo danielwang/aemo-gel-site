@@ -4,7 +4,9 @@ title: Empty State
 custom_edit_url: null
 ---
 
-import AdmonitionExt from '../admonitionExt'
+import AdmonitionExt from '../admonitionExt';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 > Empty states in an app occur when there is no data to be displayed to the user. Despite being challenging, these situations present excellent opportunities to communicate what the user would see with data and offer helpful advice on what to do next.
 
@@ -39,42 +41,50 @@ Using the default illustrations in multiple places only distracts the user from 
 
 Page level empty states used are when there are no data to be displayed in the entire page. Few scenarios to use such empty states are when the page is blank, or configuration is required.
 
-### Search
+
+<Tabs>
+<TabItem value="empty-search" label="Search" default>
 
 **When to use:** When there are no search data present.
-
 ![Empty search](img/empty-search.svg)
 
-### Dashboard
+</TabItem>
+
+<TabItem value="empty-dashboard" label="Dashboard">
 
 **When to use:** When the products dashboard is empty.
-
 ![Empty dashboard](img/empty-dash.svg)
 
-### Table
+</TabItem>
+
+<TabItem value="empty-table" label="Table">
 
 **When to use:** When there is  either no table or no data in a table
-
 ![Empty table](img/empty-table.svg)
 
-### Chart
+</TabItem>
+
+<TabItem value="empty-chart" label="Chart">
 
 **When to use:** When there are no charts to be displayed in infographics
-
 ![Empty charts](img/empty-chart.svg)
 
-### Notification
+</TabItem>
+
+<TabItem value="empty-notification" label="Notification">
 
 **When to use:** When there are no mail or notification
-
 ![Empty notification](img/empty-notification.svg)
 
-### Container level
+</TabItem>
+
+<TabItem value="container-level" label="Container level">
 
 **When to use:** When there are empty states on a container level 
-
 ![Container level empty states usage](img/container-level-empty-state-variant.svg)
 
+</TabItem>
+</Tabs>
 
 ## Guidance
 

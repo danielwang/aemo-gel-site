@@ -4,7 +4,9 @@ title: Error State
 custom_edit_url: null
 ---
 
-import AdmonitionExt from '../admonitionExt'
+import AdmonitionExt from '../admonitionExt';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 > Error states in an app occur when the user encounters either server error or non existent link to a certain content. Despite being challenging, these situations present excellent opportunities to communicate what the user would see with data and offer helpful advice on what to do next.
 
@@ -34,36 +36,42 @@ Error can occur in smaller sections of a UI as we consider microtransactions. In
 
 Error illustration are empty states that enable us to manage errors when the user hits a roadblock. With error management illustrations, it provides user to recognize, diagnose and recover from error states. Guiding them with specific action item allows user to take next step diligently.
 
-### 404
+<Tabs>
+<TabItem value="404" label="404" default>
 
 **When to use:** When the page does not exist or has been replaced.
-
 ![404 error](img/404.svg)
 
-### 500
+</TabItem>
+
+<TabItem value="500" label="500">
 
 **When to use:** When there has been a general problem with the server.
-
 ![500 error](img/500.svg)
 
-### Maintenance
+</TabItem>
+
+<TabItem value="maintenance" label="Maintenance">
 
 **When to use:** To let the user know that a planned maintenance is in progress.
-
 ![Maintenance](img/maintenance.svg)
 
-### Permission
+</TabItem>
+
+<TabItem value="permission" label="Permission">
 
 **When to use:** When you do not have access to a file or link.
-
 ![Permission](img/permission.svg)
 
-### Container level
+</TabItem>
+
+<TabItem value="container-level" label="Container level">
 
 **When to use:** When data fails to load in a specific section.
-
 ![Container level error states usage](img/container-level-error-state-variant.svg)
 
+</TabItem>
+</Tabs>
 
 ## Guidance
 
@@ -76,12 +84,15 @@ Error illustration are empty states that enable us to manage errors when the use
 #### Container level states
 
 * Depending upon the availability of the sections, number of errors might occur. Following variations of container level error state can be used.
+* Using a common icon that indicates error should be used by itself, when or without spot illustration. 
+* Spot illustrations are optional, but consider applying secondary colors when used.
+* Text should be in red-500 as provided by included in the color system.
 
-| ![Container level ](img/container-level.svg) | ![Container level ](img/container-level-no-spot.svg)  |
-| --- | --- |
-| Container level with spot and action item | Container level without spot illustration |
-| ![Container level ](img/container-level-w-icon.svg) | ![Container level ](img/container-level-no-spot-no-cta.svg)
-| Container level with icon and text | Container level with text only|
+| ![Container level ](img/container-level-error.svg)        | ![Container level ](img/container-level-exclamation-error.svg)    |
+| --------------------------------------------------------- | ---------------------------------------------------------------   |
+| Container level with spot and action item                 | Container level without spot illustration                         |
+| ![Container level ](img/container-level-w-icon-error.svg) | ![Container level ](img/container-level-no-spot-no-cta-error.svg) |
+| Container level with icon and text                        | Container level with text only                                    |
 
 
 ## Designer assets
