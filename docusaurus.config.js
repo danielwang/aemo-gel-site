@@ -43,11 +43,16 @@ module.exports = {
           label: 'Community',
           position: 'left',
         },
-        // {
-        //   href: 'https://github.com/danielwang/design-token-docs',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://www.figma.com/proto/3gE3SKsrx1APsVTBkB8CTN/GEL-Site-redesign?page-id=334%3A27760&node-id=761%3A27368&viewport=-1738%2C225%2C0.25&scaling=min-zoom&hide-ui=1',
+          label: 'Code Library',
+          position: 'left',
+        },
+        {
+          href: 'https://www.figma.com/proto/3gE3SKsrx1APsVTBkB8CTN/GEL-Site-redesign?page-id=334%3A27760&node-id=735%3A28581&viewport=-2565%2C-1048%2C0.4&scaling=min-zoom&starting-point-node-id=601%3A27347&hide-ui=1',
+          label: 'Digital Handbook',
+          position: 'right',
+        },
       ],
     },
     colorMode: {
