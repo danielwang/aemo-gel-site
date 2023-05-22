@@ -37,7 +37,7 @@ const roles = [
 const features = [
   {
     title: 'Guides',
-    url: 'docs/intro/introduction',
+    url: 'docs/guides/introduction',
     imageUrl: 'img/feat-1.svg',
     description: (
       <>
